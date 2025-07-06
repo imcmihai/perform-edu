@@ -1,0 +1,21 @@
+
+You are going to build all the components for the pages inside the /src/components/{{page.name}} directory and use these components inside the pages in the /src/app/{{page.name}} directory. 
+
+For each component in the /src/components directory, there is going to be a {{component.name}}.tsx and a {{component.name}}.module.css.
+
+For each component you are going to make you are going to use the global styles inside the globals.css file, in order to keep style consistency and make future changes easier to implement.
+
+You are going to refer back to the STRUCTURE.mdc file when you are going to build pages or components to get up to date with the content and the structure.
+
+The design of this website must feel modern and professional. It should follow the best practices of UI/UX design and feel like it is a website designed for an educational center that teaches pupils of up to 8th grade.
+
+All the content (text, images, icons, etc.) will be stored in JSON files inside the /src/content directory, with one file for each page. The according components will import their data from these files.
+
+
+
+
+
+
+
+
+

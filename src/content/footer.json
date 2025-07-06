@@ -1,0 +1,18 @@
+{
+  "links": [
+    { "name": "Acasa", "href": "/" },
+    { "name": "Cursuri", "href": "/cursuri" },
+    { "name": "Despre Noi", "href": "/despre" },
+    { "name": "Contact", "href": "/contact" }
+  ],
+  "socials": [
+    { "name": "Instagram", "href": "#" },
+    { "name": "Facebook", "href": "#" }
+  ],
+  "contactInfo": {
+    "address": "Str. Exemplu Nr. 1, Bucuresti, Romania",
+    "phone": "+40 123 456 789",
+    "email": "elitemindacademy2025@gmail.com"
+  },
+  "copyright": "© 2024 EliteMind. Toate drepturile rezervate."
+} 

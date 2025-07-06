@@ -1,0 +1,20 @@
+{
+  "contactHero": {
+    "title": "Luati legatura cu noi",
+    "highlightedTitle": "Contact",
+    "subtitle": "Aveti o intrebare sau doriti sa colaboram? Ne-ar placea sa auzim de la dumneavoastra. Completati formularul de mai jos sau folositi datele de contact pentru a ne scrie direct."
+  },
+  "contactInfo": {
+    "title": "Informatii de Contact",
+    "address": "Str. Exemplu Nr. 1, Bucuresti, Romania",
+    "phone": "+40 123 456 789",
+    "email": "contact@elitemind.ro"
+  },
+  "contactForm": {
+    "title": "Trimite-ne un mesaj",
+    "namePlaceholder": "Numele dumneavoastra",
+    "emailPlaceholder": "Adresa de email",
+    "messagePlaceholder": "Mesajul dumneavoastra",
+    "submitButton": "Trimite Mesajul"
+  }
+} 

@@ -1,0 +1,90 @@
+.footer {
+  background-color: var(--elitemind-surface);
+  color: var(--ion-text-color-step-400);
+  padding: 4rem 0 2rem;
+  border-top: 1px solid var(--ion-background-color-step-150);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--ion-padding);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--elitemind-text);
+  margin-bottom: 1.5rem;
+}
+
+.logoSection .brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--elitemind-primary);
+  margin-bottom: 0.5rem;
+}
+
+.logoSection .tagline {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.linksSection ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linksSection li {
+  margin-bottom: 0.75rem;
+}
+
+.link {
+  color: var(--ion-text-color-step-400);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: var(--elitemind-primary);
+}
+
+.contactSection p {
+  margin: 0 0 0.5rem;
+  line-height: 1.6;
+}
+
+.socialsSection .socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLink {
+  color: var(--ion-text-color-step-400);
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.socialLink:hover {
+  color: var(--elitemind-primary);
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid var(--ion-background-color-step-150);
+  padding-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.copyright p {
+  margin: 0;
+} 

@@ -1,0 +1,68 @@
+.contactFormSection {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px) saturate(150%);
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+  padding: 2.5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(209, 213, 219, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+}
+
+.container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.title {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--elitemind-text);
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--ion-background-color-step-200);
+  border-radius: 8px;
+  background: var(--ion-background-color);
+  color: var(--elitemind-text);
+  transition: all 0.3s;
+}
+
+.inputGroup input:focus,
+.inputGroup textarea:focus {
+  outline: none;
+  border-color: var(--elitemind-primary);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+  background: var(--elitemind-surface);
+}
+
+.submitButton {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--elitemind-primary);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: flex-start;
+}
+
+.submitButton:hover {
+  background-color: var(--ion-color-primary-shade);
+} 

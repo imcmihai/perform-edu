@@ -1,0 +1,149 @@
+
+{
+  "aboutHero": {
+    "title": "Despre",
+    "highlightedTitle": "PerformEDU",
+    "subtitle": "Centrul Educational de Excelența din Sectorul 6",
+    "missionTitle": "Misiunea noastră - Educație de calitate în inima Bucureștiului",
+    "missionText": "Centrul Educațional PerformEDU a fost înființat din dorința de a oferi educație de excepție în Sectorul 6 al Bucureștiului. Misiunea noastră este să transformăm potențialul fiecărui elev în rezultate concrete.",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "imageAlt": "Centrul educațional PerformEDU",
+    "stats": [
+      {
+        "number": "2020",
+        "label": "Înființat"
+      },
+      {
+        "number": "500+",
+        "label": "Elevi"
+      }
+    ],
+    "storyText": "De la înființarea noastră, am ajutat sute de elevi să-și atingă obiectivele academice, fie că vorbim de note mai bune la școală, pregătire pentru examene naționale, olimpiade sau certificări internaționale.",
+    "emphasizedText": "Credem că fiecare copil are un potențial unic și rolul nostru este să-l descoperim și să-l cultivăm."
+  },
+  "values": {
+    "title": "Valorile care ne",
+    "highlightedTitle": "ghidează",
+    "subtitle": "în procesul educațional",
+    "values": [
+      {
+        "icon": "🎯",
+        "title": "Excelența Academică",
+        "description": "Setăm standarde înalte și lucrăm constant pentru a le depăși, oferind educație de calitate superioară în toate disciplinele.",
+        "size": "large",
+        "color": "primary"
+      },
+      {
+        "icon": "👤",
+        "title": "Abordarea Individualizată",
+        "description": "Înțelegem că fiecare elev este unic, cu propriul ritm de învățare și propriile provocări. Adaptăm metodele de predare pentru a maximiza potențialul fiecăruia.",
+        "size": "medium",
+        "color": "secondary"
+      },
+      {
+        "icon": "💡",
+        "title": "Inovația în Educație",
+        "description": "Combinăm metodele tradiționale dovedite cu tehnologiile moderne, creând experiențe de învățare captivante și eficiente.",
+        "size": "medium",
+        "color": "tertiary"
+      },
+      {
+        "icon": "🤝",
+        "title": "Transparența și Comunicarea",
+        "description": "Menținem o comunicare constantă cu părinții, oferind feedback regulat despre progresul elevilor și planurile de dezvoltare.",
+        "size": "large",
+        "color": "success"
+      }
+    ]
+  },
+  "team": {
+    "title": "Echipa",
+    "highlightedTitle": "PerformEDU",
+    "subtitle": "Profesori dedicați performanței tale",
+    "description": "Echipa noastră este formată din profesori calificați, cu experiență vastă în predare și rezultate dovedite în pregătirea elevilor pentru examene și concursuri. Fiecare membru al echipei este selectat nu doar pentru competențele academice, ci și pentru pasiunea de a preda și capacitatea de a inspira elevii.",
+    "criteriaTitle": "Criteriile noastre de selecție:",
+    "criteria": [
+      {
+        "icon": "📚",
+        "title": "Experiență minimă 5 ani",
+        "description": "Experiență vastă în predare cu rezultate dovedite"
+      },
+      {
+        "icon": "🏆",
+        "title": "Rezultate demonstrabile",
+        "description": "Performanțe concrete cu elevii pregătiți"
+      },
+      {
+        "icon": "🎓",
+        "title": "Certificări și specializări",
+        "description": "Competențe academice în disciplinele predate"
+      },
+      {
+        "icon": "💬",
+        "title": "Abilități de comunicare",
+        "description": "Empatie și capacitate de a inspira elevii"
+      },
+      {
+        "icon": "📈",
+        "title": "Dezvoltare continuă",
+        "description": "Participare la cursuri de dezvoltare profesională"
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "imageAlt": "Profesori PerformEDU",
+    "stats": [
+      {
+        "icon": "👨‍🏫",
+        "number": "15+",
+        "label": "Profesori"
+      },
+      {
+        "icon": "🎯",
+        "number": "8+",
+        "label": "Ani experiență"
+      }
+    ]
+  },
+  "results": {
+    "title": "Rezultatele care ne",
+    "highlightedTitle": "definesc",
+    "subtitle": "excelența",
+    "intro": "În ultimii ani, elevii noștri au demonstrat performanțe excepționale în toate domeniile de activitate educațională:",
+    "achievements": [
+      {
+        "metric": "95%",
+        "title": "Promovabilitate",
+        "description": "la examenele naționale",
+        "icon": "🎯",
+        "color": "primary"
+      },
+      {
+        "metric": "200+",
+        "title": "Premii",
+        "description": "la olimpiade școlare",
+        "icon": "🏆",
+        "color": "secondary"
+      },
+      {
+        "metric": "85%",
+        "title": "Medii peste 8",
+        "description": "la bacalaureat",
+        "icon": "📊",
+        "color": "tertiary"
+      },
+      {
+        "metric": "100%",
+        "title": "Satisfacție",
+        "description": "părinților și elevilor",
+        "icon": "⭐",
+        "color": "success"
+      }
+    ],
+    "cta": {
+      "title": "Alătură-te comunității noastre de succese!",
+      "description": "Fie că vrei să îmbunătățești notele, să te pregătești pentru examene sau să participi la olimpiade, echipa PerformEDU este aici pentru tine.",
+      "primaryButton": "Programează o evaluare",
+      "secondaryButton": "Vezi cursurile"
+    }
+  }
+} 

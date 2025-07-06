@@ -1,0 +1,186 @@
+
+{
+  "hero": {
+    "title": "Cursuri si Meditatii Specializate",
+    "subtitle": "PerformEDU Sectorul 6",
+    "intro": "Descoperă gama completă de cursuri și meditații oferite de PerformEDU în Sectorul 6. De la meditatii matematica și meditatii romana până la cursuri limbi straine și pregătire specializată pentru examene, avem soluția perfectă pentru nevoile educaționale ale copilului tău."
+  },
+  "courses": [
+    {
+      "id": "matematica",
+      "title": "Meditatii Matematica",
+      "subtitle": "De la Baze la Performanta",
+      "description": "Cursurile noastre de matematică sunt structurate pentru a acoperi toate nivelurile de pregătire, de la consolidarea bazelor până la pregătirea pentru olimpiade și concursuri naționale. Folosim metode interactive și exemple practice pentru a face matematica accesibilă și captivantă.",
+      "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "details": {
+        "levels": {
+          "title": "Nivele disponibile",
+          "items": [
+            "Clasele I-IV: Consolidarea bazelor și dezvoltarea gândirii logice",
+            "Clasele V-VIII: Pregătire pentru evaluarea națională și olimpiade",
+            "Pregătire olimpiade: Nivel avansat pentru concursuri naționale"
+          ]
+        },
+        "methodology": {
+          "title": "Metodologie",
+          "items": [
+            "Evaluare inițială pentru identificarea lacunelor",
+            "Planuri individualizate de recuperare și dezvoltare",
+            "Exerciții practice adaptate nivelului elevului",
+            "Simulări de examene și teste de verificare",
+            "Materiale didactice personalizate"
+          ]
+        }
+      },
+      "program": "Flexibil, adaptat programului școlar și nevoilor elevului",
+      "price": "Începe de la 100 lei/ședință",
+      "cta": "Rezervă o evaluare gratuită de matematică"
+    },
+    {
+      "id": "romana",
+      "title": "Meditatii Romana",
+      "subtitle": "Dezvoltarea Competentelor de Comunicare",
+      "description": "Meditațiile de română la PerformEDU dezvoltă competențele de exprimare orală și scrisă, analiza literară și redactarea creativă. Pregătim elevii pentru examene naționale, concursuri literare și dezvoltarea unei comunicări eficiente.",
+      "image": "https://images.unsplash.com/photo-1456327102063-fb50545b7256?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "details": {
+        "skills": {
+          "title": "Competențe dezvoltate",
+          "items": [
+            "Înțelegerea și interpretarea textelor literare",
+            "Tehnici de redactare și argumentare",
+            "Dezvoltarea vocabularului și stilului",
+            "Pregătire pentru examene naționale",
+            "Competențe de comunicare orală"
+          ]
+        },
+        "curriculum": {
+          "title": "Programa acoperită",
+          "items": [
+            "Literatura română clasică și contemporană",
+            "Teoria literaturii și figuri de stil",
+            "Gramatica și ortografia",
+            "Tehnici de eseu și argumentare",
+            "Pregătire pentru examene și evaluări"
+          ]
+        }
+      },
+      "cta": "Începe să îndrăgești româna cu profesorii noștri"
+    },
+    {
+      "id": "limbi-straine",
+      "title": "Cursuri Limbi Straine",
+      "subtitle": "Engleza, Germana, Franceza",
+      "languages": [
+        {
+          "name": "Engleză",
+          "description": "Cursurile de engleză combină învățarea gramaticii cu dezvoltarea competențelor de comunicare practică. Pregătim elevii pentru certificări Cambridge (KET, PET, FCE, CAE) și îi ajutăm să atingă fluența în limba engleză."
+        },
+        {
+          "name": "Germană",
+          "description": "Cursurile de germană oferă o abordare sistematică a limbii, de la nivel începător la avansat. Pregătim pentru examene Goethe și dezvoltăm competențele necesare pentru comunicarea în mediul academic și profesional."
+        },
+        {
+          "name": "Franceză",
+          "description": "Cursurile de franceză pun accent pe pronunția corectă și înțelegerea culturii francofone. Pregătim pentru certificări DELF/DALF și dezvoltăm competențele de comunicare în situații reale."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1521334884684-d80222895322?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "details": {
+        "methodology": {
+          "title": "Metodologie pentru toate limbile",
+          "items": [
+            "Abordare comunicativă centrată pe elev",
+            "Materiale authentice și interactive",
+            "Dezvoltarea tuturor competențelor lingvistice",
+            "Pregătire pentru certificări internaționale",
+            "Grupuri mici pentru practică intensivă"
+          ]
+        }
+      },
+      "cta": "Alege limba străină care îți deschide noi orizonturi"
+    },
+    {
+      "id": "fizica",
+      "title": "Cursuri Fizica",
+      "subtitle": "Stiinta prin Experienta",
+      "description": "Cursurile de fizică la PerformEDU transformă conceptele abstracte în experiențe concrete prin experimente și aplicații practice. Dezvoltăm gândirea științifică și capacitatea de rezolvare a problemelor complexe.",
+      "image": "https://images.unsplash.com/photo-1577985051167-3d65e74b4279?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "details": {
+        "approach": {
+          "title": "Abordare didactică",
+          "items": [
+            "Experimente demonstrative în laborator",
+            "Aplicații practice ale conceptelor teoretice",
+            "Rezolvarea sistematică a problemelor",
+            "Pregătire pentru examene și olimpiade",
+            "Conexiuni cu tehnologia modernă"
+          ]
+        }
+      },
+      "cta": "Descoperă frumusețea fizicii prin experiment"
+    },
+    {
+      "id": "sah",
+      "title": "Cursuri Sah",
+      "subtitle": "Dezvoltarea Gandiriii Strategice",
+      "description": "Cursurile de șah dezvoltă gândirea strategică, concentrarea și răbdarea. Este o activitate educațională excelentă pentru dezvoltarea intelectuală completă a copiilor de toate vârstele.",
+      "image": "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "details": {
+        "benefits": {
+          "title": "Beneficii educaționale",
+          "items": [
+            "Dezvoltarea gândirii logice și strategice",
+            "Îmbunătățirea capacității de concentrare",
+            "Dezvoltarea răbdării și perseverenței",
+            "Stimularea creativității și imaginației",
+            "Competiții și turnee organizate"
+          ]
+        }
+      },
+      "cta": "Învață șahul cu maeștrii noștri"
+    }
+  ],
+  "pricing": {
+    "title": "Pachete si Tarife",
+    "subtitle": "Transparenta Totala",
+    "plans": [
+      {
+        "name": "Individual",
+        "price": "150 lei",
+        "per": "/sedinta",
+        "features": [
+          "Atentie 1-la-1",
+          "Program personalizat",
+          "Feedback detaliat",
+          "Ideal pentru recuperare rapida"
+        ],
+        "recommended": false
+      },
+      {
+        "name": "Grupuri Mici",
+        "price": "120 lei",
+        "per": "/sedinta",
+        "features": [
+          "2-3 elevi",
+          "Invatare colaborativa",
+          "Dinamica de grup",
+          "Cel mai bun raport calitate-pret"
+        ],
+        "recommended": true
+      },
+      {
+        "name": "Grupuri Standard",
+        "price": "100 lei",
+        "per": "/sedinta",
+        "features": [
+          "4-6 elevi",
+          "Mediu de invatare stimulant",
+          "Dezvoltare abilitati sociale",
+          "Accesibil si eficient"
+        ],
+        "recommended": false
+      }
+    ],
+    "cta": "Contactează-ne pentru o ofertă personalizată"
+  }
+} 

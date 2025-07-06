@@ -1,0 +1,619 @@
+.results {
+  padding: 8rem 0;
+  background: linear-gradient(
+    135deg,
+    var(--elitemind-background) 0%,
+    rgba(212, 175, 55, 0.02) 50%,
+    rgba(74, 144, 184, 0.03) 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--ion-padding);
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: clamp(2.5rem, 4.5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--elitemind-text);
+  margin-bottom: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.highlight {
+  color: var(--elitemind-primary);
+  position: relative;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--elitemind-primary),
+    var(--elitemind-secondary)
+  );
+  border-radius: 2px;
+  opacity: 0.5;
+}
+
+.subtitle {
+  color: var(--elitemind-secondary);
+  font-style: italic;
+}
+
+.intro {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--ion-text-color-step-400);
+  margin: 0;
+}
+
+.achievementsGrid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 80px);
+  gap: 2rem;
+  margin-bottom: 6rem;
+  position: relative;
+}
+
+.achievementCard {
+  background: var(--elitemind-surface);
+  border-radius: 24px;
+  padding: 2.5rem;
+  box-shadow: var(--ion-box-shadow-elevated);
+  border: 1px solid var(--ion-background-color-step-100);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+}
+
+.achievementCard:hover {
+  transform: translateY(-15px) scale(1.03);
+  box-shadow: 
+    0 35px 70px rgba(0, 0, 0, 0.15),
+    0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Asymmetrical positioning */
+.achievementCard:nth-child(1) {
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+  transform: rotate(-2deg) translateY(10px);
+}
+
+.achievementCard:nth-child(2) {
+  grid-column: 5 / 8;
+  grid-row: 1 / 3;
+  transform: rotate(1.5deg) translateY(-20px);
+}
+
+.achievementCard:nth-child(3) {
+  grid-column: 9 / 13;
+  grid-row: 1 / 3;
+  transform: rotate(-1deg) translateY(15px);
+}
+
+.achievementCard:nth-child(4) {
+  grid-column: 3 / 7;
+  grid-row: 3 / 5;
+  transform: rotate(2deg) translateY(-10px);
+}
+
+/* Maintain rotation on hover */
+.achievementCard:hover:nth-child(1) {
+  transform: rotate(-2deg) translateY(-5px) scale(1.03);
+}
+
+.achievementCard:hover:nth-child(2) {
+  transform: rotate(1.5deg) translateY(-35px) scale(1.03);
+}
+
+.achievementCard:hover:nth-child(3) {
+  transform: rotate(-1deg) translateY(0px) scale(1.03);
+}
+
+.achievementCard:hover:nth-child(4) {
+  transform: rotate(2deg) translateY(-25px) scale(1.03);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.iconContainer {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(
+    135deg,
+    var(--elitemind-primary),
+    var(--elitemind-secondary)
+  );
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.achievementCard:hover .iconContainer {
+  transform: scale(1.15) rotate(10deg);
+}
+
+.icon {
+  font-size: 2rem;
+  filter: grayscale(1) brightness(0) invert(1);
+}
+
+.metric {
+  text-align: right;
+}
+
+.number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--elitemind-primary);
+  line-height: 1;
+  display: block;
+}
+
+.cardContent {
+  position: relative;
+  z-index: 10;
+}
+
+.achievementTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--elitemind-text);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+}
+
+.achievementDescription {
+  font-size: 1rem;
+  color: var(--ion-text-color-step-400);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.gradientBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--elitemind-primary),
+    var(--elitemind-secondary)
+  );
+  border-radius: 0 0 24px 24px;
+  opacity: 0.3;
+}
+
+.floatingDot {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 12px;
+  height: 12px;
+  background: var(--elitemind-accent);
+  border-radius: 50%;
+  opacity: 0.4;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.4; }
+  50% { transform: scale(1.3); opacity: 0.7; }
+}
+
+/* Color variations */
+.primary .iconContainer {
+  background: linear-gradient(
+    135deg,
+    var(--elitemind-primary),
+    var(--ion-color-primary-tint)
+  );
+}
+
+.primary .gradientBar {
+  background: linear-gradient(
+    90deg,
+    var(--elitemind-primary),
+    var(--ion-color-primary-tint)
+  );
+}
+
+.secondary .iconContainer {
+  background: linear-gradient(
+    135deg,
+    var(--elitemind-secondary),
+    var(--ion-color-secondary-tint)
+  );
+}
+
+.secondary .gradientBar {
+  background: linear-gradient(
+    90deg,
+    var(--elitemind-secondary),
+    var(--ion-color-secondary-tint)
+  );
+}
+
+.tertiary .iconContainer {
+  background: linear-gradient(
+    135deg,
+    var(--elitemind-accent),
+    var(--ion-color-tertiary-tint)
+  );
+}
+
+.tertiary .gradientBar {
+  background: linear-gradient(
+    90deg,
+    var(--elitemind-accent),
+    var(--ion-color-tertiary-tint)
+  );
+}
+
+.success .iconContainer {
+  background: linear-gradient(
+    135deg,
+    var(--ion-color-success),
+    var(--ion-color-success-tint)
+  );
+}
+
+.success .gradientBar {
+  background: linear-gradient(
+    90deg,
+    var(--ion-color-success),
+    var(--ion-color-success-tint)
+  );
+}
+
+.ctaSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.ctaCard {
+  background: linear-gradient(
+    135deg,
+    var(--elitemind-surface) 0%,
+    rgba(212, 175, 55, 0.05) 100%
+  );
+  border-radius: 28px;
+  padding: 4rem;
+  box-shadow: var(--ion-box-shadow-elevated);
+  border: 1px solid var(--ion-background-color-step-100);
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.ctaCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(
+    90deg,
+    var(--elitemind-primary),
+    var(--elitemind-secondary),
+    var(--elitemind-accent)
+  );
+  border-radius: 28px 28px 0 0;
+}
+
+.ctaTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--elitemind-text);
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.ctaDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--ion-text-color-step-400);
+  margin-bottom: 2.5rem;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryButton {
+  background: linear-gradient(
+    135deg,
+    var(--elitemind-primary),
+    var(--elitemind-secondary)
+  );
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: var(--ion-box-shadow);
+  min-width: 180px;
+}
+
+.primaryButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 
+    0 15px 30px rgba(212, 175, 55, 0.3),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.secondaryButton {
+  background: var(--elitemind-surface);
+  color: var(--elitemind-secondary);
+  border: 2px solid var(--elitemind-secondary);
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 180px;
+}
+
+.secondaryButton:hover {
+  background: var(--elitemind-secondary);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 
+    0 15px 30px rgba(74, 144, 184, 0.3),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.backgroundElements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.floatingShape1 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(
+    45deg,
+    var(--elitemind-primary),
+    transparent
+  );
+  border-radius: 50%;
+  opacity: 0.1;
+  animation: float 10s ease-in-out infinite;
+}
+
+.floatingShape2 {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(
+    -45deg,
+    var(--elitemind-secondary),
+    transparent
+  );
+  border-radius: 50%;
+  opacity: 0.08;
+  animation: float 15s ease-in-out infinite reverse;
+}
+
+.floatingShape3 {
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(
+    90deg,
+    var(--elitemind-accent),
+    transparent
+  );
+  border-radius: 50%;
+  opacity: 0.06;
+  animation: float 12s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-30px) rotate(180deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .achievementsGrid {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 70px);
+  }
+
+  .achievementCard:nth-child(1) {
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+  }
+
+  .achievementCard:nth-child(2) {
+    grid-column: 5 / 9;
+    grid-row: 1 / 3;
+  }
+
+  .achievementCard:nth-child(3) {
+    grid-column: 1 / 5;
+    grid-row: 3 / 5;
+  }
+
+  .achievementCard:nth-child(4) {
+    grid-column: 5 / 9;
+    grid-row: 3 / 5;
+  }
+}
+
+@media (max-width: 768px) {
+  .results {
+    padding: 5rem 0;
+  }
+
+  .header {
+    margin-bottom: 3rem;
+  }
+
+  .achievementsGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .achievementCard {
+    transform: none !important;
+    grid-column: unset;
+    grid-row: unset;
+    padding: 2rem;
+  }
+
+  .achievementCard:nth-child(odd) {
+    transform: translateX(-15px);
+  }
+
+  .achievementCard:nth-child(even) {
+    transform: translateX(15px);
+  }
+
+  .achievementCard:hover {
+    transform: translateY(-10px) scale(1.02);
+  }
+
+  .achievementCard:hover:nth-child(odd) {
+    transform: translateX(-15px) translateY(-10px) scale(1.02);
+  }
+
+  .achievementCard:hover:nth-child(even) {
+    transform: translateX(15px) translateY(-10px) scale(1.02);
+  }
+
+  .achievementCard:hover:nth-child(1),
+  .achievementCard:hover:nth-child(2),
+  .achievementCard:hover:nth-child(3),
+  .achievementCard:hover:nth-child(4) {
+    transform: translateY(-10px) scale(1.02);
+  }
+
+  .ctaCard {
+    padding: 3rem 2rem;
+  }
+
+  .ctaTitle {
+    font-size: 1.5rem;
+  }
+
+  .ctaDescription {
+    font-size: 1rem;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .achievementCard:nth-child(odd),
+  .achievementCard:nth-child(even) {
+    transform: none;
+  }
+
+  .achievementCard:hover:nth-child(odd),
+  .achievementCard:hover:nth-child(even) {
+    transform: translateY(-8px) scale(1.01);
+  }
+
+  .achievementCard {
+    padding: 1.5rem;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .iconContainer {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .number {
+    font-size: 2rem;
+  }
+
+  .achievementTitle {
+    font-size: 1.2rem;
+  }
+
+  .ctaCard {
+    padding: 2rem 1.5rem;
+  }
+
+  .backgroundElements {
+    display: none;
+  }
+} 

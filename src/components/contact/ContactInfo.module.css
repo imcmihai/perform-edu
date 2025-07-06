@@ -1,0 +1,42 @@
+.contactInfo {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px) saturate(150%);
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+  padding: 2.5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(209, 213, 219, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--elitemind-text);
+  margin-bottom: 2rem;
+}
+
+.infoGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.infoItem h3 {
+  font-size: 1.1rem;
+  color: var(--elitemind-secondary);
+  margin: 0;
+  font-weight: 600;
+}
+
+.infoItem p {
+  font-size: 1rem;
+  color: var(--ion-text-color-step-400);
+  margin: 0;
+} 

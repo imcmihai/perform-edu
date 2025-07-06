@@ -1,0 +1,446 @@
+.team {
+  padding: 7rem 0;
+  background: linear-gradient(
+    165deg,
+    rgba(248, 249, 250, 1) 0%,
+    rgba(74, 144, 184, 0.04) 40%,
+    rgba(212, 175, 55, 0.03) 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--ion-padding);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.textSection {
+  padding-top: 2rem;
+}
+
+.title {
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--elitemind-text);
+  margin-bottom: 3rem;
+  letter-spacing: -0.02em;
+}
+
+.highlight {
+  color: var(--elitemind-secondary);
+  position: relative;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--elitemind-secondary);
+  border-radius: 2px;
+  opacity: 0.4;
+}
+
+.description {
+  background: var(--elitemind-surface);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: var(--ion-box-shadow);
+  border: 1px solid var(--ion-background-color-step-100);
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.description::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--elitemind-accent);
+  border-radius: 0 2px 2px 0;
+}
+
+.descriptionText {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--ion-text-color-step-400);
+  margin: 0;
+}
+
+.criteriaHeader {
+  margin-bottom: 2rem;
+}
+
+.criteriaTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--elitemind-text);
+  margin: 0;
+}
+
+.criteriaList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.criterionItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--elitemind-surface);
+  border-radius: 16px;
+  box-shadow: var(--ion-box-shadow);
+  border: 1px solid var(--ion-background-color-step-100);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.criterionItem:hover {
+  transform: translateX(8px);
+  box-shadow: 
+    -8px 12px 30px rgba(0, 0, 0, 0.08),
+    -4px 6px 16px rgba(0, 0, 0, 0.04);
+}
+
+.criterionItem:nth-child(odd) {
+  transform: translateX(20px);
+}
+
+.criterionItem:nth-child(even) {
+  transform: translateX(-10px);
+}
+
+.criterionItem:hover:nth-child(odd) {
+  transform: translateX(28px);
+}
+
+.criterionItem:hover:nth-child(even) {
+  transform: translateX(-2px);
+}
+
+.criterionIcon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(
+    135deg,
+    var(--elitemind-primary),
+    var(--elitemind-secondary)
+  );
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.criterionItem:hover .criterionIcon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.criterionContent {
+  flex: 1;
+}
+
+.criterionTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--elitemind-text);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+}
+
+.criterionDescription {
+  font-size: 0.95rem;
+  color: var(--ion-text-color-step-400);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.imageSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  transform: rotate(2deg) translateY(-30px);
+  box-shadow: 
+    0 25px 50px rgba(0, 0, 0, 0.15),
+    0 10px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 3rem;
+}
+
+.image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.statsCards {
+  display: flex;
+  gap: 1.5rem;
+  transform: translateY(-20px);
+}
+
+.statCard {
+  background: var(--elitemind-surface);
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: var(--ion-box-shadow-elevated);
+  border: 1px solid var(--ion-background-color-step-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  backdrop-filter: blur(10px);
+  min-width: 120px;
+  transition: all 0.3s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.12),
+    0 8px 16px rgba(0, 0, 0, 0.06);
+}
+
+.statCard:nth-child(1) {
+  transform: rotate(-3deg);
+}
+
+.statCard:nth-child(2) {
+  transform: rotate(2deg);
+}
+
+.statCard:hover:nth-child(1) {
+  transform: rotate(-3deg) translateY(-8px);
+}
+
+.statCard:hover:nth-child(2) {
+  transform: rotate(2deg) translateY(-8px);
+}
+
+.statIcon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(
+    135deg,
+    var(--elitemind-secondary),
+    var(--elitemind-accent)
+  );
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+}
+
+.statContent {
+  text-align: center;
+}
+
+.statNumber {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--elitemind-primary);
+  line-height: 1;
+}
+
+.statLabel {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--ion-text-color-step-400);
+  margin-top: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .textSection {
+    padding-top: 0;
+  }
+
+  .imageSection {
+    order: -1;
+  }
+
+  .imageContainer {
+    transform: rotate(1deg);
+    max-width: 500px;
+    margin: 0 auto 3rem;
+  }
+
+  .statsCards {
+    justify-content: center;
+  }
+
+  .criterionItem:nth-child(odd) {
+    transform: translateX(10px);
+  }
+
+  .criterionItem:nth-child(even) {
+    transform: translateX(-5px);
+  }
+
+  .criterionItem:hover:nth-child(odd) {
+    transform: translateX(18px);
+  }
+
+  .criterionItem:hover:nth-child(even) {
+    transform: translateX(3px);
+  }
+}
+
+@media (max-width: 768px) {
+  .team {
+    padding: 5rem 0;
+  }
+
+  .content {
+    gap: 3rem;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .description {
+    padding: 2rem;
+  }
+
+  .descriptionText {
+    font-size: 1rem;
+  }
+
+  .criteriaTitle {
+    font-size: 1.2rem;
+  }
+
+  .criterionItem {
+    padding: 1.25rem;
+    transform: none;
+  }
+
+  .criterionItem:nth-child(odd),
+  .criterionItem:nth-child(even) {
+    transform: none;
+  }
+
+  .criterionItem:hover {
+    transform: translateY(-5px);
+  }
+
+  .criterionItem:hover:nth-child(odd),
+  .criterionItem:hover:nth-child(even) {
+    transform: translateY(-5px);
+  }
+
+  .criterionIcon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.25rem;
+  }
+
+  .criterionTitle {
+    font-size: 1rem;
+  }
+
+  .criterionDescription {
+    font-size: 0.9rem;
+  }
+
+  .image {
+    height: 350px;
+  }
+
+  .statsCards {
+    gap: 1rem;
+  }
+
+  .statCard {
+    padding: 1.5rem;
+    min-width: 100px;
+  }
+
+  .statIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .statNumber {
+    font-size: 1.5rem;
+  }
+
+  .statLabel {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .criterionItem {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .criterionIcon {
+    align-self: center;
+  }
+
+  .statsCards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .statCard {
+    transform: none;
+    min-width: 150px;
+  }
+
+  .statCard:hover {
+    transform: translateY(-5px);
+  }
+
+  .statCard:hover:nth-child(1),
+  .statCard:hover:nth-child(2) {
+    transform: translateY(-5px);
+  }
+
+  .imageContainer {
+    transform: none;
+  }
+} 

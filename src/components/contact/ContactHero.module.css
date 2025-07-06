@@ -1,0 +1,44 @@
+.contactHero {
+  padding: 8rem 0 6rem;
+  background-color: var(--elitemind-background);
+  background-image: radial-gradient(
+    ellipse at 50% 0%,
+    rgba(45, 90, 135, 0.2) 0%,
+    rgba(45, 90, 135, 0) 50%
+  );
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 var(--ion-padding);
+}
+
+.textSection {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--elitemind-text);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.03em;
+}
+
+.highlight {
+  color: var(--elitemind-primary);
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--ion-text-color-step-400);
+  margin: 0;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+} 

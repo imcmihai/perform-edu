@@ -1,0 +1,255 @@
+.hero {
+  min-height: 100vh;
+  background-color: var(--elitemind-background);
+  background-image: radial-gradient(
+    circle at 50% 0%,
+    rgba(212, 175, 55, 0.3) 0%,
+    rgba(212, 175, 55, 0) 50%
+  );
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--ion-padding);
+  width: 100%;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-rows: auto auto;
+  gap: 2rem;
+  align-items: center;
+  position: relative;
+}
+
+.mainContent {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  z-index: 10;
+  padding-right: 2rem;
+}
+
+.title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--elitemind-text);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.highlight {
+  color: var(--elitemind-primary);
+  position: relative;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--elitemind-primary);
+  border-radius: 2px;
+  opacity: 0.3;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--ion-text-color-step-400);
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.primaryBtn {
+  transform: scale(1.05);
+  box-shadow: var(--ion-box-shadow-elevated);
+}
+
+.secondaryBtn {
+  background: transparent;
+  border: 2px solid var(--elitemind-secondary);
+  color: var(--elitemind-secondary);
+}
+
+.secondaryBtn:hover {
+  background: var(--elitemind-secondary);
+  color: white;
+}
+
+.heroImage {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  position: relative;
+  transform: rotate(-2deg) translateY(-20px);
+}
+
+.imageContainer {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.05);
+  transform: perspective(1000px) rotateX(5deg) rotateY(-5deg);
+}
+
+.image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.statsCard {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background: var(--elitemind-surface);
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: var(--ion-box-shadow-elevated);
+  border: 1px solid var(--ion-background-color-step-100);
+  transform: translateX(3rem) translateY(-2rem);
+  max-width: 280px;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+}
+
+.stat {
+  text-align: center;
+}
+
+.statNumber {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--elitemind-primary);
+  line-height: 1;
+}
+
+.statLabel {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--ion-text-color-step-400);
+  margin-top: 0.25rem;
+}
+
+.floatingElement {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  z-index: 1;
+  animation: float 6s ease-in-out infinite;
+}
+
+.decorativeCircle {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(
+    45deg,
+    var(--elitemind-primary),
+    var(--elitemind-secondary)
+  );
+  border-radius: 50%;
+  opacity: 0.1;
+  filter: blur(2px);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 3rem;
+  }
+  
+  .mainContent {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding-right: 0;
+    text-align: center;
+  }
+  
+  .heroImage {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    transform: rotate(-1deg);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .statsCard {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    transform: none;
+    max-width: none;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: 3rem 0;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .imageContainer {
+    transform: none;
+  }
+  
+  .image {
+    height: 300px;
+  }
+  
+  .floatingElement {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .statsCard {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .stat {
+    padding: 0.5rem;
+  }
+} 
