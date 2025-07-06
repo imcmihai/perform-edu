@@ -39,7 +39,7 @@ export default function CourseList() {
               )}
 
               <div className={styles.detailsGrid}>
-                {course.details && Object.values(course.details).map((detail: any) => (
+                {course.details && Object.values(course.details).map((detail: { title: string; items: string[] }) => (
                   <div key={detail.title} className={styles.detailColumn}>
                     <h4>{detail.title}</h4>
                     <ul className={styles.detailList}>
