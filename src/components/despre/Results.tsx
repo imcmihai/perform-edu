@@ -1,5 +1,6 @@
 import styles from './Results.module.css';
 import content from '../../content/despre.json';
+import Link from 'next/link';
 
 export default function Results() {
   const { results } = content;
@@ -59,12 +60,12 @@ export default function Results() {
               {cta.description}
             </p>
             <div className={styles.ctaButtons}>
-              <button className={styles.primaryButton}>
+              <Link href="/contact" className={styles.primaryButton}>
                 {cta.primaryButton}
-              </button>
-              <button className={styles.secondaryButton}>
+              </Link>
+              <Link href="/cursuri" className={styles.secondaryButton}>
                 {cta.secondaryButton}
-              </button>
+              </Link>
             </div>
           </div>
         </div>

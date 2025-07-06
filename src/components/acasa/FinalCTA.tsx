@@ -1,5 +1,6 @@
 import styles from './FinalCTA.module.css';
 import content from '../../content/acasa.json';
+import Image from 'next/image';
 
 export default function FinalCTA() {
   const { finalCta } = content;
@@ -29,10 +30,12 @@ export default function FinalCTA() {
 
           <div className={styles.imageSection}>
             <div className={styles.imageContainer}>
-              <img 
+              <Image 
                 src={finalCta.image}
                 alt={finalCta.imageAlt}
                 className={styles.image}
+                width={1000}
+                height={1000}
               />
             </div>
           </div>

@@ -1,6 +1,7 @@
 import styles from './Disciplines.module.css';
 import content from '../../content/acasa.json';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Disciplines() {
   const { disciplines: disciplinesContent } = content;
@@ -27,10 +28,12 @@ export default function Disciplines() {
               className={`${styles.disciplineCard}  ${styles[discipline.color]}`}
             >
               <div className={styles.imageContainer}>
-                <img 
+                <Image  
                   src={discipline.image} 
                   alt={discipline.subject}
                   className={styles.image}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 <div className={styles.overlay}></div>
               </div>
@@ -54,9 +57,9 @@ export default function Disciplines() {
         </div>
 
         <div className={styles.ctaSection}>
-          <button className={`elitemind-button ${styles.mainCta}`}>
+          <Link href="/cursuri" className={`elitemind-button ${styles.mainCta}`}>
             {disciplinesContent.mainCta}
-          </button>
+          </Link>
         </div>
       </div>
     </section>

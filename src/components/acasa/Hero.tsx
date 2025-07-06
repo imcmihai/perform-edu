@@ -1,5 +1,7 @@
 import styles from './Hero.module.css';
 import content from '../../content/acasa.json';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero() {
   const { hero } = content;
@@ -18,22 +20,25 @@ export default function Hero() {
               {hero.subtitle}
             </p>
             <div className={styles.ctaButtons}>
-              <button className={`elitemind-button ${styles.primaryBtn}`}>
+              <Link href="/contact" className={`elitemind-button ${styles.primaryBtn}`}>
                 {hero.primaryCta}
-              </button>
-              <button className={`elitemind-button secondary ${styles.secondaryBtn}`}>
+              </Link>
+              <Link href="/cursuri" className={`elitemind-button secondary ${styles.secondaryBtn}`}>
                 {hero.secondaryCta}
-              </button>
+              </Link>
             </div>
           </div>
 
           {/* Hero image - asymmetrical placement */}
           <div className={styles.heroImage}>
             <div className={styles.imageContainer}>
-              <img 
+              <Image 
                 src={hero.image}
                 alt={hero.imageAlt}
                 className={styles.image}
+                width={800}
+                height={600}
+                sizes="(max-width: 1024px) 500px, 40vw"
               />
             </div>
           </div>

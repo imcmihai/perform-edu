@@ -1,5 +1,6 @@
 import styles from './Team.module.css';
 import content from '../../content/despre.json';
+import Image from 'next/image';
 
 export default function Team() {
   const { team } = content;
@@ -42,10 +43,13 @@ export default function Team() {
 
           <div className={styles.imageSection}>
             <div className={styles.imageContainer}>
-              <img 
+              <Image 
                 src={team.image}
                 alt={team.imageAlt}
                 className={styles.image}
+                width={800}
+                height={600}
+                sizes="(max-width: 1024px) 100vw, 40vw"
               />
             </div>
             

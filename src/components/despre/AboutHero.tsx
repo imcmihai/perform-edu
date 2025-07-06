@@ -1,5 +1,6 @@
 import styles from './AboutHero.module.css';
 import content from '../../content/despre.json';
+import Image from 'next/image';
 
 export default function AboutHero() {
   const { aboutHero } = content;
@@ -26,10 +27,13 @@ export default function AboutHero() {
 
           <div className={styles.imageSection}>
             <div className={styles.imageContainer}>
-              <img 
+              <Image 
                 src={aboutHero.image}
                 alt={aboutHero.imageAlt}
                 className={styles.image}
+                width={800}
+                height={600}
+                sizes="(max-width: 1024px) 500px, 45vw"
               />
             </div>
             

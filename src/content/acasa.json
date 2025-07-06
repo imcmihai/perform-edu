@@ -6,7 +6,7 @@
     "subtitle": "Descopera excelenta educationala la centrul nostru din Sectorul 6! Chiar daca este vorba de meditatii la matematica  sau chiar cursuri de sah, noi ne indreptam toata atentia catre performanta.",
     "primaryCta": "Inscrie-te la un curs",
     "secondaryCta": "Vezi Cursurile Disponibile",
-    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "image": "/images/slider-image3.jpg",
     "imageAlt": "Elevi studiind impreuna",
     "stats": [
       {
@@ -27,7 +27,7 @@
     "disciplines": [
       {
         "subject": "Matematică",
-        "image": "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        "image": "/images/slider-image3.jpg",
         "description": "Cursurile noastre de matematică transformă matematica dintr-o provocare într-o pasiune.",
         "highlights": ["Evaluări naționale", "Olimpiade", "Concepte fundamentale", "Gândire logică"],
         "size": "large",
@@ -35,7 +35,7 @@
       },
       {
         "subject": "Română",
-        "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        "image": "/images/slider-image3.jpg",
         "description": "Dezvoltă competențele de comunicare, analiză literară și redactare creativă.",
         "highlights": ["Examene naționale", "Analiză literară", "Competiții oratorie", "Redactare creativă"],
         "size": "medium",
@@ -43,7 +43,7 @@
       },
       {
         "subject": "Limbi Străine",
-        "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        "image": "/images/slider-image3.jpg",
         "description": "Engleză, germană, franceză - cu pregătire pentru certificări internaționale.",
         "highlights": ["Cambridge", "DELF", "Goethe", "Comunicare orală"],
         "size": "medium",
@@ -51,7 +51,7 @@
       },
       {
         "subject": "Fizică",
-        "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        "image": "/images/slider-image3.jpg",
         "description": "Transformă conceptele abstracte în experiențe practice prin experimente.",
         "highlights": ["Experimente", "Olimpiade", "Aplicații practice"],
         "size": "small",
@@ -59,7 +59,7 @@
       },
       {
         "subject": "Șah Educațional",
-        "image": "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        "image": "/images/slider-image3.jpg",
         "description": "Dezvoltă gândirea strategică, concentrarea și răbdarea.",
         "highlights": ["Gândire strategică", "Concentrare", "Răbdare", "Dezvoltare intelectuală"],
         "size": "small",
@@ -111,7 +111,7 @@
     "description": "Nu mai amâna! Locurile în grupele noastre sunt limitate. Contactează-ne acum pentru o consultație gratuită și descoperă cum putem transforma potențialul copilului tău în rezultate excepționale.",
     "phone": "0737 123 456",
     "primaryCta": "Completează formularul de contact",
-    "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "image": "/images/slider-image3.jpg",
     "imageAlt": "Elev fericit cu rezultate excelente"
   }
 } 

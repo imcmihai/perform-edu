@@ -18,8 +18,8 @@ export default function Navbar() {
 
   const links = [
     { name: "Acasa", href: "/" },
-    { name: "Cursuri", href: "/cursuri" },
     { name: "Despre Noi", href: "/despre" },
+    { name: "Cursuri", href: "/cursuri" },
     { name: "Contact", href: "/contact" }
   ];
 

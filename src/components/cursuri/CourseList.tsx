@@ -1,6 +1,7 @@
 'use client';
 import styles from './CourseList.module.css';
 import content from '../../content/cursuri.json';
+import Image from 'next/image';
 
 export default function CourseList() {
   const { courses } = content;
@@ -10,6 +11,15 @@ export default function CourseList() {
       <div className={styles.container}>
         {courses.map((course) => (
           <div key={course.id} id={course.id} className={styles.courseCard}>
+            <div className={styles.imageSection}>
+              <Image
+                src={course.image}
+                alt={course.title}
+                width={1000}
+                height={1000}
+                sizes="(max-width: 992px) 100vw, 50vw"
+              />
+            </div>  
             <div className={styles.contentSection}>
               <h2 className={styles.title}>{course.title}</h2>
               <span className={styles.subtitle}>{course.subtitle}</span>
@@ -44,9 +54,6 @@ export default function CourseList() {
               
 
               
-            </div>
-            <div className={styles.imageSection}>
-              <img src={course.image} alt={course.title} className={styles.image} />
             </div>
           </div>
         ))}
