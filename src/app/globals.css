@@ -262,7 +262,7 @@ body {
   font-size: var(--ion-font-size);
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.3s ease;
+  
 }
 
 
@@ -270,6 +270,7 @@ body {
 .elitemind-button.secondary {
   background: var(--elitemind-secondary);
   color: var(--ion-color-secondary-contrast);
+
 }
 
 

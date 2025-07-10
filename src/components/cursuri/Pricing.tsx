@@ -22,7 +22,7 @@ export default function Pricing() {
               </div>
               <ul className={styles.featureList}>
                 {plan.features.map((feature, i) => (
-                  <li key={i} className={styles.featureItem}>{feature}</li>
+                    <li key={i} className={styles.featureItem}>{` ✓ ${feature}`}</li>
                 ))}
               </ul>
              

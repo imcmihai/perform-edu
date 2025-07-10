@@ -28,16 +28,8 @@ export default function Disciplines() {
               className={`${styles.disciplineCard}  ${styles[discipline.color]}`}
             >
               <div className={styles.imageContainer}>
-                <Image  
-                  src={discipline.image} 
-                  alt={discipline.subject}
-                  className={styles.image}
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                />
-                <div className={styles.overlay}></div>
+                <Image src={discipline.image} alt={discipline.subject} width={1920} height={1080} className={styles.image} />
               </div>
-              
               <div className={styles.content}>
                 <h3 className={styles.subject}>{discipline.subject}</h3>
                 <p className={styles.description}>{discipline.description}</p>

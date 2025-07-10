@@ -36,14 +36,12 @@ export default function Navbar() {
           </div>
           <div className={styles.links}>
             {links.map(link => (
-              <Link key={link.href} href={link.href} className={styles.link}>
+              <Link key={link.href} href={link.href} className={styles.link} style={{ textDecoration: 'none' }}>
                 {link.name}
               </Link>
             ))}
           </div>
-          <div className={styles.actionButton}>
-            <button>Inscrie-te</button>
-          </div>
+          
           <div className={styles.burgerMenu} onClick={() => setMenuOpen(!menuOpen)}>
             <div className={`${styles.burgerLine} ${menuOpen ? styles.open : ''}`} />
             <div className={`${styles.burgerLine} ${menuOpen ? styles.open : ''}`} />
@@ -52,6 +50,9 @@ export default function Navbar() {
         </div>
       </nav>
       <div className={`${styles.sidePanel} ${menuOpen ? styles.open : ''}`}>
+        <button className={styles.closeButton} onClick={() => setMenuOpen(false)}>
+          &times;
+        </button>
         <div className={styles.sidePanelLinks}>
           {links.map(link => (
             <Link key={link.href} href={link.href} className={styles.sidePanelLink} onClick={handleLinkClick}>

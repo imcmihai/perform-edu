@@ -66,6 +66,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .priceCard:hover {
@@ -124,16 +126,13 @@
   padding-left: 1.75rem;
   position: relative;
   text-align: center;
+
+  
 }
 
-.featureItem::before {
-  content: '✓';
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50px);
-  color: var(--elitemind-primary);
-  font-weight: 700;
-}
+
+
+
 
 .dealItem strong {
     font-weight: 600;

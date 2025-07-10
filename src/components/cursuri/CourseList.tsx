@@ -11,15 +11,17 @@ export default function CourseList() {
       <div className={styles.container}>
         {courses.map((course) => (
           <div key={course.id} id={course.id} className={styles.courseCard}>
-            <div className={styles.imageSection}>
+
               <Image
                 src={course.image}
                 alt={course.title}
-                width={1000}
-                height={1000}
-                sizes="(max-width: 992px) 100vw, 50vw"
+                width={500}
+                height={500}
+                className={styles.image}
+                
+                
               />
-            </div>  
+
             <div className={styles.contentSection}>
               <h2 className={styles.title}>{course.title}</h2>
               <span className={styles.subtitle}>{course.subtitle}</span>

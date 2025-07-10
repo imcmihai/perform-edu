@@ -1,18 +1,18 @@
 {
   "links": [
     { "name": "Acasa", "href": "/" },
-    { "name": "Cursuri", "href": "/cursuri" },
     { "name": "Despre Noi", "href": "/despre" },
+    { "name": "Cursuri", "href": "/cursuri" },
     { "name": "Contact", "href": "/contact" }
   ],
   "socials": [
-    { "name": "Instagram", "href": "#" },
+    { "name": "Instagram", "href": "https://www.instagram.com/elitemind_academy/" },
     { "name": "Facebook", "href": "#" }
   ],
   "contactInfo": {
-    "address": "Str. Exemplu Nr. 1, Bucuresti, Romania",
-    "phone": "+40 123 456 789",
+    "address": "Str Valea Oltului nr 73-75, etaj 2",
+    "phone": "+40 744 550 445",
     "email": "elitemindacademy2025@gmail.com"
   },
-  "copyright": "© 2024 PerformEDU. Toate drepturile rezervate."
+  "copyright": "© 2025 PerformEDU. Toate drepturile rezervate."
 } 

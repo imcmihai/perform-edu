@@ -20,10 +20,10 @@ export default function Hero() {
               {hero.subtitle}
             </p>
             <div className={styles.ctaButtons}>
-              <Link href="/contact" className={`elitemind-button ${styles.primaryBtn}`}>
+              <Link href="/contact" className={`elitemind-button ${styles.primaryBtn}`} style={{ textDecoration: 'none' }}>
                 {hero.primaryCta}
               </Link>
-              <Link href="/cursuri" className={`elitemind-button secondary ${styles.secondaryBtn}`}>
+              <Link href="/cursuri" className={`elitemind-button secondary  ${styles.secondaryBtn}`} style={{ textDecoration: 'none' }}>
                 {hero.secondaryCta}
               </Link>
             </div>

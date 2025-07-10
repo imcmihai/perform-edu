@@ -49,6 +49,7 @@
   transition: color 0.3s;
   position: relative;
   padding: 0.25rem 0;
+  
 }
 
 .link:hover {
@@ -135,6 +136,20 @@
 
 .sidePanel.open {
   right: 0;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--elitemind-text);
+  font-size: 2.5rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  z-index: 1100;
 }
 
 .sidePanelLinks {

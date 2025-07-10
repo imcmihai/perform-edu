@@ -71,27 +71,34 @@
 }
 
 .ctaButtons {
+
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
+
 }
 
 .primaryBtn {
   transform: scale(1.05);
   box-shadow: var(--ion-box-shadow-elevated);
+
 }
+
+.primaryBtn:hover{
+
+  color: white;
+}
+
 
 .secondaryBtn {
   background: transparent;
   border: 2px solid var(--elitemind-secondary);
   color: var(--elitemind-secondary);
+
 }
 
-.secondaryBtn:hover {
-  background: var(--elitemind-secondary);
-  color: white;
-}
+
 
 .heroImage {
   grid-column: 2 / 3;
@@ -220,8 +227,11 @@
   }
   
   .ctaButtons {
-    flex-direction: column;
+    flex-direction: row;
     align-items: stretch;
+    justify-content: center;
+
+
   }
   
   .primaryBtn,
@@ -245,7 +255,7 @@
 
 @media (max-width: 480px) {
   .statsCard {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
   }
   

@@ -27,9 +27,28 @@ export default function Footer() {
           </div>
           <div className={styles.contactSection}>
             <h4 className={styles.sectionTitle}>Contact</h4>
-            <p>{contactInfo.address}</p>
-            <p>{contactInfo.phone}</p>
-            <p>{contactInfo.email}</p>
+            <p>
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                  contactInfo.address
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                {contactInfo.address}
+              </a>
+            </p>
+            <p>
+              <a href={`tel:${contactInfo.phone.replace(/\s/g, '')}`} className={styles.link}>
+                {contactInfo.phone}
+              </a>
+            </p>
+            <p>
+              <a href={`mailto:${contactInfo.email}`} className={styles.link}>
+                {contactInfo.email}
+              </a>
+            </p>
           </div>
           <div className={styles.socialsSection}>
             <h4 className={styles.sectionTitle}>Urmareste-ne</h4>

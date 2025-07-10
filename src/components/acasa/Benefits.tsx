@@ -20,7 +20,7 @@ export default function Benefits() {
           {benefits.map((benefit, index) => (
             <div 
               key={index} 
-              className={`${styles.benefitCard} ${styles[benefit.size]}`}
+              className={`${styles.benefitCard} `}
             >
               <div className={styles.iconContainer}>
                 <span className={styles.icon}>{benefit.icon}</span>

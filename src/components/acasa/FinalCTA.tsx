@@ -1,6 +1,7 @@
 import styles from './FinalCTA.module.css';
 import content from '../../content/acasa.json';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function FinalCTA() {
   const { finalCta } = content;
@@ -22,9 +23,9 @@ export default function FinalCTA() {
               <a href={`tel:${finalCta.phone.replace(/\s/g, '')}`} className={`elitemind-button ${styles.phoneButton}`}>
                 📞 Sună acum: {finalCta.phone}
               </a>
-              <button className={`elitemind-button secondary ${styles.contactButton}`}>
+              <Link href="/contact" className={`elitemind-button secondary ${styles.contactButton}`}>
                 {finalCta.primaryCta}
-              </button>
+              </Link>
             </div>
           </div>
 
