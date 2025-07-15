@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PerformEDU - Meditatii si Cursuri pentru Elevi",
+  title: "EliteMind Academy - Meditatii si Cursuri pentru Elevi",
   description: "Meditatii si Cursuri dedicate elevilor din ciclul primar si gimnazial la Matematica, Romana, Engleza, Franceza, Germana, Fizica, Sah",
 };
 
