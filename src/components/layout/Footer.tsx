@@ -10,7 +10,7 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.grid}>
           <div className={styles.logoSection}>
-            <h3 className={styles.brand}>PerformEDU</h3>
+            <h3 className={styles.brand}>EliteMind Academy</h3>
             <p className={styles.tagline}>Excelenta in educatie.</p>
           </div>
           <div className={styles.linksSection}>

@@ -1,9 +1,9 @@
 
 {
   "hero": {
-    "title": "Meditatii si Cursuri de Performanta",
+    "title": "Meditatii si Cursuri",
     "highlightedTitle": "in Sectorul 6 Bucuresti",
-    "subtitle": "Descopera excelenta educationala la centrul nostru din Sectorul 6! Chiar daca este vorba de meditatii la matematica  sau chiar cursuri de sah, noi ne indreptam toata atentia catre performanta.",
+    "subtitle": "Descopera excelenta educationala la centrul nostru din Sectorul 6! Chiar daca este vorba de meditatii la matematica  sau chiar cursuri de sah, noi ne indreptam toata atentia catre succesul elevilor nostri.",
     "primaryCta": "Inscrie-te la un curs",
     "secondaryCta": "Vezi Cursurile Disponibile",
     "image": "/images/slider-image3.jpg",
@@ -19,15 +19,54 @@
       }
     ]
   },
+
+  "benefits": {
+    "title": "De ce să alegi",
+    "subtitle": "EliteMind Academy",
+    "description": "pentru cursuri și meditatii în Sectorul 6?",
+    "benefits": [
+      {
+        "icon": "📍",
+        "title": "Locație accesibila în Sectorul 6",
+        "description": "Accesibilitate maximă pentru familiile din zonă",
+        "size": "large"
+      },
+      {
+        "icon": "🤝",
+        "title": "Comunitate unită",
+        "description": "Grupe mici pentru colaborare eficientă și sprijin reciproc",
+        "size": "medium"
+      },
+      {
+        "icon": "🎓",
+        "title": "Profesori cu experiență",
+        "description": "Minim 5 ani în predare, cu rezultate dovedite",
+        "size": "medium"
+      },
+      {
+        "icon": "💻",
+        "title": "Metode moderne",
+        "description": "Materiale interactive și metode de predare care dau rezultate",
+        "size": "small"
+      },
+      {
+        "icon": "📊",
+        "title": "Rezultate măsurabile",
+        "description": "Evaluări periodice și feedback constant",
+        "size": "large"
+      }
+    ]
+  },
+
   "disciplines": {
     "title": "Cursuri si Meditatii ",
-    "subtitle": "pentru Toate Disciplinele",
+    "subtitle": "pentru Toti Elevii",
     "highlightedSubtitle": "Specializate",
     "description": "Descoperă gama completă de cursuri și meditații oferite de PerformEDU",
     "disciplines": [
       {
         "subject": "Matematică",
-        "image": "/images/slider-image3.jpg",
+        "image": "/images/matematica.png",
         "description": "Cursurile noastre de matematică transformă matematica dintr-o provocare într-o pasiune.",
         "highlights": ["Evaluări naționale", "Olimpiade", "Concepte fundamentale", "Gândire logică"],
         "size": "large",
@@ -43,7 +82,7 @@
       },
       {
         "subject": "Limbi Străine",
-        "image": "/images/slider-image3.jpg",
+        "image": "/images/limbi-straine.png",
         "description": "Engleză, germană, franceză - cu pregătire pentru certificări internaționale.",
         "highlights": ["Cambridge", "DELF", "Goethe", "Comunicare orală"],
         "size": "medium",
@@ -68,43 +107,7 @@
     ],
     "mainCta": "Alege cursul potrivit pentru tine"
   },
-  "benefits": {
-    "title": "De ce să alegi",
-    "subtitle": "PerformEDU",
-    "description": "pentru cursuri și meditatii în Sectorul 6?",
-    "benefits": [
-      {
-        "icon": "📍",
-        "title": "Locație centrală în Sectorul 6",
-        "description": "Accesibilitate maximă pentru familiile din zonă",
-        "size": "large"
-      },
-      {
-        "icon": "👥",
-        "title": "Grupe unite",
-        "description": "Maximum 6 elevi - Atenție individualizată garantată",
-        "size": "medium"
-      },
-      {
-        "icon": "🎓",
-        "title": "Profesori cu experiență",
-        "description": "Minim 5 ani în predare, cu rezultate dovedite",
-        "size": "medium"
-      },
-      {
-        "icon": "💻",
-        "title": "Metode moderne",
-        "description": "Materiale interactive și metode de predare care dau rezultate",
-        "size": "small"
-      },
-      {
-        "icon": "📊",
-        "title": "Rezultate măsurabile",
-        "description": "Evaluări periodice și feedback constant",
-        "size": "large"
-      }
-    ]
-  },
+ 
   "finalCta": {
     "title": "Începe astăzi călătoria spre",
     "highlightedTitle": "succesul academic!",

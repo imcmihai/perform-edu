@@ -2,7 +2,7 @@
 {
   "aboutHero": {
     "title": "Despre",
-    "highlightedTitle": "PerformEDU",
+    "highlightedTitle": "EliteMind",
     "subtitle": "Centrul Educational de Excelența din Sectorul 6",
     "missionTitle": "Misiunea noastră - Educație de calitate în inima Bucureștiului",
     "missionText": "Centrul Educațional PerformEDU a fost înființat din dorința de a oferi educație de excepție în Sectorul 6 al Bucureștiului. Misiunea noastră este să transformăm potențialul fiecărui elev în rezultate concrete.",
@@ -10,15 +10,15 @@
     "imageAlt": "Centrul educațional PerformEDU",
     "stats": [
       {
-        "number": "2025",
-        "label": "Înființat"
+        "number": "10+",
+        "label": "Ani de experiență"
       },
       {
-        "number": "99+",
+        "number": "50+",
         "label": "Elevi"
       }
     ],
-    "storyText": "De la înființarea noastră, am ajutat sute de elevi să-și atingă obiectivele academice, fie că vorbim de note mai bune la școală, pregătire pentru examene naționale, olimpiade sau certificări internaționale.",
+    "storyText": "De la înființarea noastră, am ajutat zeci de elevi să-și atingă obiectivele academice, fie că vorbim de note mai bune la școală, pregătire pentru examene naționale sau certificări internaționale.",
     "emphasizedText": "Credem că fiecare copil are un potențial unic și rolul nostru este să-l descoperim și să-l cultivăm."
   },
   "values": {
@@ -94,12 +94,12 @@
     "stats": [
       {
         "icon": "👨‍🏫",
-        "number": "15+",
+        "number": "3+",
         "label": "Profesori"
       },
       {
         "icon": "🎯",
-        "number": "8+",
+        "number": "10+",
         "label": "Ani experiență"
       }
     ]
@@ -118,7 +118,7 @@
         "color": "primary"
       },
       {
-        "metric": "200+",
+        "metric": "10+",
         "title": "Premii",
         "description": "la olimpiade școlare",
         "icon": "🏆",
@@ -126,7 +126,7 @@
       },
       {
         "metric": "85%",
-        "title": "Medii peste 8",
+        "title": "Medii peste 9",
         "description": "la bacalaureat",
         "icon": "📊",
         "color": "tertiary"
@@ -140,7 +140,7 @@
       }
     ],
     "cta": {
-      "title": "Alătură-te comunității noastre de succese!",
+      "title": "Alătură-te comunității noastre de succes!",
       "description": "Fie că vrei să îmbunătățești notele, să te pregătești pentru examene sau să participi la olimpiade, echipa PerformEDU este aici pentru tine.",
       "primaryButton": "Programează o evaluare",
       "secondaryButton": "Vezi cursurile"

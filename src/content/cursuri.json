@@ -2,7 +2,7 @@
 {
   "hero": {
     "title": "Cursuri si Meditatii Specializate",
-    "subtitle": "PerformEDU Sectorul 6",
+    "subtitle": "EliteMind Academy Sectorul 6",
     "intro": "Descoperă gama completă de cursuri și meditații oferite de PerformEDU în Sectorul 6. De la meditatii matematica și meditatii romana până la cursuri limbi straine și pregătire specializată pentru examene, avem soluția perfectă pentru nevoile educaționale ale copilului tău."
   },
   "courses": [
@@ -10,7 +10,7 @@
       "id": "matematica",
       "title": "Meditatii Matematica",
       "subtitle": "De la Baze la Performanta",
-      "description": "Cursurile noastre de matematică sunt structurate pentru a acoperi toate nivelurile de pregătire, de la consolidarea bazelor până la pregătirea pentru olimpiade și concursuri naționale. Folosim metode interactive și exemple practice pentru a face matematica accesibilă și captivantă.",
+      "description": "Cursurile noastre de matematică sunt structurate pentru a acoperi toate nivelurile de pregătire, de la consolidarea bazelor până la pregătirea pentru examene naționale. Folosim metode interactive și exemple practice pentru a face matematica accesibilă și captivantă.",
       "image": "/images/slider-image3.jpg",
       "details": {
         "levels": {
