@@ -2,8 +2,8 @@
 {
   "hero": {
     "title": "Cursuri si Meditatii Specializate",
-    "subtitle": "EliteMind Academy Sectorul 6",
-    "intro": "Descoperă gama completă de cursuri și meditații oferite de PerformEDU în Sectorul 6. De la meditatii matematica și meditatii romana până la cursuri limbi straine și pregătire specializată pentru examene, avem soluția perfectă pentru nevoile educaționale ale copilului tău."
+    "subtitle": "Elite Mind Academy Sectorul 6",
+    "intro": "Descoperă gama completă de cursuri și meditații oferite de Elite Mind Academy în Sectorul 6. De la meditatii matematica și meditatii romana până la cursuri limbi straine și pregătire specializată pentru examene, avem soluția perfectă pentru nevoile educaționale ale copilului tău."
   },
   "courses": [
     {
@@ -38,7 +38,7 @@
       "id": "romana",
       "title": "Meditatii Romana",
       "subtitle": "Dezvoltarea Competentelor de Comunicare",
-      "description": "Meditațiile de română la PerformEDU dezvoltă competențele de exprimare orală și scrisă, analiza literară și redactarea creativă. Pregătim elevii pentru examene naționale, concursuri literare și dezvoltarea unei comunicări eficiente.",
+      "description": "Meditațiile de română la Elite Mind Academy dezvoltă competențele de exprimare orală și scrisă, analiza literară și redactarea creativă. Pregătim elevii pentru examene naționale, concursuri literare și dezvoltarea unei comunicări eficiente.",
       "image": "/images/slider-image3.jpg",
       "details": {
         "skills": {
@@ -101,7 +101,7 @@
       "id": "fizica",
       "title": "Cursuri Fizica",
       "subtitle": "Stiinta prin Experienta",
-      "description": "Cursurile de fizică la PerformEDU transformă conceptele abstracte în experiențe concrete prin experimente și aplicații practice. Dezvoltăm gândirea științifică și capacitatea de rezolvare a problemelor complexe.",
+      "description": "Cursurile de fizică la Elite Mind Academy transformă conceptele abstracte în experiențe concrete prin experimente și aplicații practice. Dezvoltăm gândirea științifică și capacitatea de rezolvare a problemelor complexe.",
       "image": "/images/slider-image3.jpg",
       "details": {
         "approach": {

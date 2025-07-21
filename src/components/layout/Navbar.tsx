@@ -32,7 +32,7 @@ export default function Navbar() {
       <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
         <div className={styles.container}>
           <div className={styles.logo}>
-            <Link href="/">EliteMind Academy</Link>
+            <Link href="/">Elite Mind Academy</Link>
           </div>
           <div className={styles.links}>
             {links.map(link => (

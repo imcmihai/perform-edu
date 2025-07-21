@@ -2,12 +2,12 @@
 {
   "aboutHero": {
     "title": "Despre",
-    "highlightedTitle": "EliteMind",
+    "highlightedTitle": "Elite Mind",
     "subtitle": "Centrul Educational de Excelența din Sectorul 6",
     "missionTitle": "Misiunea noastră - Educație de calitate în inima Bucureștiului",
-    "missionText": "Centrul Educațional PerformEDU a fost înființat din dorința de a oferi educație de excepție în Sectorul 6 al Bucureștiului. Misiunea noastră este să transformăm potențialul fiecărui elev în rezultate concrete.",
+    "missionText": "Centrul Educațional Elite Mind Academy a fost înființat din dorința de a oferi educație de excepție în Sectorul 6 al Bucureștiului. Misiunea noastră este să transformăm potențialul fiecărui elev în rezultate concrete.",
     "image": "/images/slider-image3.jpg",
-    "imageAlt": "Centrul educațional PerformEDU",
+    "imageAlt": "Centrul educațional Elite Mind Academy",
     "stats": [
       {
         "number": "10+",
@@ -58,7 +58,7 @@
   },
   "team": {
     "title": "Echipa",
-    "highlightedTitle": "PerformEDU",
+    "highlightedTitle": "Elite Mind",
     "subtitle": "Profesori dedicați performanței tale",
     "description": "Echipa noastră este formată din profesori calificați, cu experiență vastă în predare și rezultate dovedite în pregătirea elevilor pentru examene și concursuri. Fiecare membru al echipei este selectat nu doar pentru competențele academice, ci și pentru pasiunea de a preda și capacitatea de a inspira elevii.",
     "criteriaTitle": "Criteriile noastre de selecție:",
@@ -90,7 +90,7 @@
       }
     ],
     "image": "/images/slider-image3.jpg",
-    "imageAlt": "Profesori PerformEDU",
+    "imageAlt": "Profesori Elite Mind",
     "stats": [
       {
         "icon": "👨‍🏫",
@@ -141,7 +141,7 @@
     ],
     "cta": {
       "title": "Alătură-te comunității noastre de succes!",
-      "description": "Fie că vrei să îmbunătățești notele, să te pregătești pentru examene sau să participi la olimpiade, echipa PerformEDU este aici pentru tine.",
+      "description": "Fie că vrei să îmbunătățești notele, să te pregătești pentru examene sau să participi la olimpiade, echipa Elite Mind este aici pentru tine.",
       "primaryButton": "Programează o evaluare",
       "secondaryButton": "Vezi cursurile"
     }

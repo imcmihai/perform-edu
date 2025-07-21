@@ -22,7 +22,7 @@
 
   "benefits": {
     "title": "De ce să alegi",
-    "subtitle": "EliteMind Academy",
+    "subtitle": "Elite Mind Academy",
     "description": "pentru cursuri și meditatii în Sectorul 6?",
     "benefits": [
       {
@@ -62,11 +62,11 @@
     "title": "Cursuri si Meditatii ",
     "subtitle": "pentru Toti Elevii",
     "highlightedSubtitle": "Specializate",
-    "description": "Descoperă gama completă de cursuri și meditații oferite de PerformEDU",
+    "description": "Descoperă gama completă de cursuri și meditații oferite de Elite Mind",
     "disciplines": [
       {
         "subject": "Matematică",
-        "image": "/images/matematica.png",
+        "image": "/images/image.png",
         "description": "Cursurile noastre de matematică transformă matematica dintr-o provocare într-o pasiune.",
         "highlights": ["Evaluări naționale", "Olimpiade", "Concepte fundamentale", "Gândire logică"],
         "size": "large",
