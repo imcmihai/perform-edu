@@ -1,7 +1,6 @@
 import ContactHero from '../../components/contact/ContactHero';
 import ContactInfo from '../../components/contact/ContactInfo';
 
-import styles from './contact-page.module.css';
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
