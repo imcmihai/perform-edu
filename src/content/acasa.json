@@ -22,7 +22,7 @@
 
   "benefits": {
     "title": "De ce să alegi",
-    "subtitle": "Elite Mind Academy",
+    "subtitle": "EliteMind Academy",
     "description": "pentru cursuri și meditatii în Sectorul 6?",
     "benefits": [
       {
@@ -62,11 +62,11 @@
     "title": "Cursuri si Meditatii ",
     "subtitle": "pentru Toti Elevii",
     "highlightedSubtitle": "Specializate",
-    "description": "Descoperă gama completă de cursuri și meditații oferite de Elite Mind",
+    "description": "Descoperă gama completă de cursuri și meditații oferite de PerformEDU",
     "disciplines": [
       {
         "subject": "Matematică",
-        "image": "/images/image.png",
+        "image": "/images/matematica.jpg",
         "description": "Cursurile noastre de matematică transformă matematica dintr-o provocare într-o pasiune.",
         "highlights": ["Evaluări naționale", "Olimpiade", "Concepte fundamentale", "Gândire logică"],
         "size": "large",
@@ -74,7 +74,7 @@
       },
       {
         "subject": "Română",
-        "image": "/images/slider-image3.jpg",
+        "image": "/images/romana2.jpg",
         "description": "Dezvoltă competențele de comunicare, analiză literară și redactare creativă.",
         "highlights": ["Examene naționale", "Analiză literară", "Competiții oratorie", "Redactare creativă"],
         "size": "medium",
@@ -82,15 +82,15 @@
       },
       {
         "subject": "Limbi Străine",
-        "image": "/images/limbi-straine.png",
-        "description": "Engleză, germană, franceză - cu pregătire pentru certificări internaționale.",
-        "highlights": ["Cambridge", "DELF", "Goethe", "Comunicare orală"],
+        "image": "/images/limbi-straine1.png",
+        "description": "Engleză, germană - cu pregătire pentru certificări internaționale.",
+        "highlights": ["Cambridge", "Goethe", "Comunicare orală"],
         "size": "medium",
         "color": "tertiary"
       },
       {
         "subject": "Fizică",
-        "image": "/images/slider-image3.jpg",
+        "image": "/images/fizica.jpg",
         "description": "Transformă conceptele abstracte în experiențe practice prin experimente.",
         "highlights": ["Experimente", "Olimpiade", "Aplicații practice"],
         "size": "small",
@@ -98,7 +98,7 @@
       },
       {
         "subject": "Șah Educațional",
-        "image": "/images/slider-image3.jpg",
+        "image": "/images/sah2.jpg",
         "description": "Dezvoltă gândirea strategică, concentrarea și răbdarea.",
         "highlights": ["Gândire strategică", "Concentrare", "Răbdare", "Dezvoltare intelectuală"],
         "size": "small",
@@ -114,7 +114,7 @@
     "description": "Nu mai amâna! Locurile în grupele noastre sunt limitate. Contactează-ne acum pentru o consultație gratuită și descoperă cum putem transforma potențialul copilului tău în rezultate excepționale.",
     "phone": "0744 550 445",
     "primaryCta": "Completează formularul de contact",
-    "image": "/images/slider-image3.jpg",
+    "image": "/images/classroom.jpg",
     "imageAlt": "Elev fericit cu rezultate excelente"
   }
 } 

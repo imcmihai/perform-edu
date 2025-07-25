@@ -6,7 +6,7 @@
     "subtitle": "Centrul Educational de Excelența din Sectorul 6",
     "missionTitle": "Misiunea noastră - Educație de calitate în inima Bucureștiului",
     "missionText": "Centrul Educațional Elite Mind Academy a fost înființat din dorința de a oferi educație de excepție în Sectorul 6 al Bucureștiului. Misiunea noastră este să transformăm potențialul fiecărui elev în rezultate concrete.",
-    "image": "/images/slider-image3.jpg",
+    "image": "/images/despre-classroom.jpg",
     "imageAlt": "Centrul educațional Elite Mind Academy",
     "stats": [
       {
@@ -127,7 +127,7 @@
       {
         "metric": "85%",
         "title": "Medii peste 9",
-        "description": "la bacalaureat",
+        "description": "la examenele naționale",
         "icon": "📊",
         "color": "tertiary"
       },

@@ -15,11 +15,18 @@ export default function CourseList() {
               <Image
                 src={course.image}
                 alt={course.title}
-                width={500}
-                height={500}
+                width={1920}
+                height={1080}
                 className={styles.image}
-                
-                
+                sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 50vw, 40vw"
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  aspectRatio: '16/9',
+                  objectFit: 'cover'
+                }}
+                quality={85}
+                priority={course.id === 'matematica'}
               />
 
             <div className={styles.contentSection}>

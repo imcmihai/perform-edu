@@ -41,7 +41,9 @@ export default function Footer() {
             </p>
             <p>
               <a href={`tel:${contactInfo.phone.replace(/\s/g, '')}`} className={styles.link}>
-                {contactInfo.phone}
+                <b>Rares Voicu: </b>
+                {contactInfo.phone} 
+                  
               </a>
             </p>
             <p>

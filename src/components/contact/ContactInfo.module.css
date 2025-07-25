@@ -1,42 +1,252 @@
+.container {
+  padding: 4rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: var(--ion-padding);
+  padding-right: var(--ion-padding);
+}
+
+.contentWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: stretch;
+  min-height: 500px;
+}
+
 .contactInfo {
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px) saturate(150%);
-  -webkit-backdrop-filter: blur(10px) saturate(150%);
-  padding: 2.5rem;
-  border-radius: 20px;
-  border: 1px solid rgba(209, 213, 219, 0.4);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+  /* Enhanced gradient background with website colors */
+  background: linear-gradient(
+    135deg,
+    rgba(212, 175, 55, 0.12) 0%,     /* Primary gold with transparency */
+    rgba(74, 144, 184, 0.08) 25%,    /* Secondary blue with transparency */
+    rgba(255, 255, 255, 0.95) 50%,   /* White for contrast */
+    rgba(45, 90, 135, 0.06) 75%,     /* Tertiary dark blue with transparency */
+    rgba(212, 175, 55, 0.08) 100%    /* Back to primary gold */
+  );
+  /* Add radial gradient overlays for more depth */
+  background-image: 
+    linear-gradient(
+      135deg,
+      rgba(212, 175, 55, 0.12) 0%,
+      rgba(74, 144, 184, 0.08) 25%,
+      rgba(255, 255, 255, 0.95) 50%,
+      rgba(45, 90, 135, 0.06) 75%,
+      rgba(212, 175, 55, 0.08) 100%
+    ),
+    radial-gradient(
+      ellipse at 20% 30%, 
+      rgba(212, 175, 55, 0.15) 0%,
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse at 80% 70%, 
+      rgba(74, 144, 184, 0.12) 0%,
+      transparent 60%
+    );
+  backdrop-filter: blur(15px) saturate(150%);
+  -webkit-backdrop-filter: blur(15px) saturate(150%);
+  padding: 3rem;
+  border-radius: 24px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  /* Enhanced shadow with color tints */
+  box-shadow: 
+    0 12px 40px 0 rgba(0, 0, 0, 0.12),
+    0 6px 20px 0 rgba(212, 175, 55, 0.08),
+    0 3px 10px 0 rgba(74, 144, 184, 0.08);
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add a subtle animated shimmer effect */
+.contactInfo::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(212, 175, 55, 0.1) 50%,
+    transparent 70%
+  );
+  animation: shimmer 8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.contactInfo > * {
+  position: relative;
+  z-index: 1;
+}
+
+.contactInfo:hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 
+    0 20px 60px 0 rgba(0, 0, 0, 0.15),
+    0 8px 25px 0 rgba(212, 175, 55, 0.12),
+    0 4px 15px 0 rgba(74, 144, 184, 0.12);
+}
+
+.imageWrapper {
+  position: relative;
+  width: auto;
+  height: auto;
+  min-height: 500px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 
+    0 12px 40px 0 rgba(0, 0, 0, 0.12),
+    0 6px 20px 0 rgba(212, 175, 55, 0.05),
+    0 3px 10px 0 rgba(74, 144, 184, 0.05);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.imageWrapper:hover {
+  transform: translateY(-2px) scale(1.005);
+  box-shadow: 
+    0 16px 48px 0 rgba(0, 0, 0, 0.15),
+    0 8px 25px 0 rgba(212, 175, 55, 0.08),
+    0 4px 15px 0 rgba(74, 144, 184, 0.08);
+}
+
+.locationImage {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 24px;
+  position: relative !important;
 }
 
 .title {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: clamp(2.2rem, 4vw, 2.8rem);
+  font-weight: 700;
   color: var(--elitemind-text);
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  letter-spacing: -0.02em;
 }
 
 .infoGrid {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .infoItem {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 0;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid rgba(209, 213, 219, 0.2);
+  transition: all 0.2s ease;
+}
+
+.infoItem:last-child {
+  border-bottom: none;
+}
+
+.infoItem:hover {
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0 -1rem;
+  padding: 1.2rem 1rem;
+  border-radius: 12px;
+  border-bottom: 1px solid transparent;
+}
+
+.infoItem:hover:last-child {
+  border-bottom: none;
 }
 
 .infoItem h3 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: var(--elitemind-secondary);
   margin: 0;
   font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
 .infoItem p {
-  font-size: 1rem;
-  color: var(--ion-text-color-step-400);
+  font-size: 1.15rem;
+  color: var(--elitemind-text);
   margin: 0;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.infoItem a {
+  color: var(--elitemind-primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  position: relative;
+}
+
+.infoItem a:hover {
+  color: var(--elitemind-secondary);
+  transform: translateX(4px);
+}
+
+.infoItem a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--elitemind-primary);
+  transition: width 0.3s ease;
+}
+
+.infoItem a:hover::after {
+  width: 100%;
+  background-color: var(--elitemind-secondary);
+}
+
+@keyframes shimmer {
+  0%, 100% { 
+    transform: translateX(-100%) translateY(-100%) rotate(45deg); 
+    opacity: 0;
+  }
+  50% { 
+    transform: translateX(100%) translateY(100%) rotate(45deg); 
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .contentWrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    min-height: auto;
+  }
+  
+  .imageWrapper {
+    min-height: 300px;
+  }
+  
+  .contactInfo {
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .infoItem h3 {
+    font-size: 1.2rem;
+  }
+  
+  .infoItem p {
+    font-size: 1.1rem;
+  }
 } 

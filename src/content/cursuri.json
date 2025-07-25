@@ -11,7 +11,7 @@
       "title": "Meditatii Matematica",
       "subtitle": "De la Baze la Performanta",
       "description": "Cursurile noastre de matematică sunt structurate pentru a acoperi toate nivelurile de pregătire, de la consolidarea bazelor până la pregătirea pentru examene naționale. Folosim metode interactive și exemple practice pentru a face matematica accesibilă și captivantă.",
-      "image": "/images/slider-image3.jpg",
+      "image": "/images/matematica.jpg",
       "details": {
         "levels": {
           "title": "Nivele disponibile",
@@ -39,7 +39,7 @@
       "title": "Meditatii Romana",
       "subtitle": "Dezvoltarea Competentelor de Comunicare",
       "description": "Meditațiile de română la Elite Mind Academy dezvoltă competențele de exprimare orală și scrisă, analiza literară și redactarea creativă. Pregătim elevii pentru examene naționale, concursuri literare și dezvoltarea unei comunicări eficiente.",
-      "image": "/images/slider-image3.jpg",
+      "image": "/images/romana.jpg",
       "details": {
         "skills": {
           "title": "Competențe dezvoltate",
@@ -67,7 +67,7 @@
     {
       "id": "limbi-straine",
       "title": "Cursuri Limbi Straine",
-      "subtitle": "Engleza, Germana, Franceza",
+      "subtitle": "Engleza, Germana",
       "languages": [
         {
           "name": "Engleză",
@@ -76,13 +76,9 @@
         {
           "name": "Germană",
           "description": "Cursurile de germană oferă o abordare sistematică a limbii, de la nivel începător la avansat. Pregătim pentru examene Goethe și dezvoltăm competențele necesare pentru comunicarea în mediul academic și profesional."
-        },
-        {
-          "name": "Franceză",
-          "description": "Cursurile de franceză pun accent pe pronunția corectă și înțelegerea culturii francofone. Pregătim pentru certificări DELF/DALF și dezvoltăm competențele de comunicare în situații reale."
         }
       ],
-      "image": "/images/slider-image3.jpg",
+      "image": "/images/limbi-straine1.png",
       "details": {
         "methodology": {
           "title": "Metodologie pentru toate limbile",
@@ -102,7 +98,7 @@
       "title": "Cursuri Fizica",
       "subtitle": "Stiinta prin Experienta",
       "description": "Cursurile de fizică la Elite Mind Academy transformă conceptele abstracte în experiențe concrete prin experimente și aplicații practice. Dezvoltăm gândirea științifică și capacitatea de rezolvare a problemelor complexe.",
-      "image": "/images/slider-image3.jpg",
+      "image": "/images/fizica.jpg",
       "details": {
         "approach": {
           "title": "Abordare didactică",
@@ -121,7 +117,7 @@
       "title": "Cursuri Sah",
       "subtitle": "Dezvoltarea Gandiriii Strategice",
       "description": "Cursurile de șah dezvoltă gândirea strategică, concentrarea și răbdarea. Este o activitate educațională excelentă pentru dezvoltarea intelectuală completă a copiilor de toate vârstele.",
-      "image": "/images/slider-image3.jpg",
+      "image": "/images/sah.jpg",
       "details": {
         "benefits": {
           "title": "Beneficii educaționale",
@@ -143,8 +139,8 @@
     "plans": [
       {
         "name": "Individual",
-        "price": "150 lei",
-        "per": "/sedinta",
+        "price": "Contacteaza-ne",
+        "per": "",
         "features": [
           "Atentie 1-la-1",
           "Program personalizat",
@@ -158,24 +154,12 @@
         "price": "120 lei",
         "per": "/sedinta",
         "features": [
-          "2-3 elevi",
+          "7-8 elevi",
           "Invatare colaborativa",
           "Dinamica de grup",
           "Cel mai bun raport calitate-pret"
         ],
         "recommended": true
-      },
-      {
-        "name": "Grupuri Standard",
-        "price": "100 lei",
-        "per": "/sedinta",
-        "features": [
-          "4-6 elevi",
-          "Mediu de invatare stimulant",
-          "Dezvoltare abilitati sociale",
-          "Accesibil si eficient"
-        ],
-        "recommended": false
       }
     ],
     "cta": "Contactează-ne pentru o ofertă personalizată"

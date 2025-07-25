@@ -1,5 +1,6 @@
 import styles from './Pricing.module.css';
 import content from '../../content/cursuri.json';
+import Link from 'next/link';
 
 export default function Pricing() {
   const { pricing } = content;
@@ -17,7 +18,16 @@ export default function Pricing() {
             >
               <h3>{plan.name}</h3>
               <div className={styles.price}>
-                <span className={styles.priceAmount}>{plan.price}</span>
+                {index === 0 ? (
+                  <Link href="/contact" className={styles.priceAmount} style={{ textDecoration: 'none' }}>
+                    {plan.price}
+                  </Link>
+                ) : (
+                  <>
+                    <span className={styles.pricePer}>de la</span>
+                    <span className={styles.priceAmount}>{plan.price}</span>
+                  </>
+                )}
                 <span className={styles.pricePer}>{plan.per}</span>
               </div>
               <ul className={styles.featureList}>
@@ -25,7 +35,7 @@ export default function Pricing() {
                     <li key={i} className={styles.featureItem}>{` ✓ ${feature}`}</li>
                 ))}
               </ul>
-             
+              
             </div>
           ))}
         </div>

@@ -1,21 +1,24 @@
 import ContactHero from '../../components/contact/ContactHero';
 import ContactInfo from '../../components/contact/ContactInfo';
-import ContactForm from '../../components/contact/ContactForm';
+
 import styles from './contact-page.module.css';
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact EliteMind Academy - Programări și Informații",
+  description: "Contactați EliteMind Academy pentru programări, informații despre cursuri și meditatii în Sectorul 6, București. Telefon: 0744 550 445, Adresa: Strada Valea Oltului 73-75.",
+  alternates: {
+    canonical: "https://elitemindacademy.ro/contact"
+  },
+  keywords: "contact elitemind academy, programare meditatii, adresa centru educational sector 6, telefon meditatii bucuresti"
+};
 
 export default function ContactPage() {
   return (
     <main>
       <ContactHero />
-      <section className={styles.contactSection}>
-        <div className={styles.container}>
-          <div className={styles.contactGrid}>
+      <section >
             <ContactInfo />
-            <ContactForm />
-          </div>
-          
-        </div>
-        
       </section>
       <div style={{ position: 'relative', width: '100%', height: '400px', marginTop: '20px' }}>
         <iframe
@@ -31,6 +34,8 @@ export default function ContactPage() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          title="Locația EliteMind Academy"
+          aria-label="Harta cu locația EliteMind Academy"
         ></iframe>
       </div>
     </main>

@@ -8,7 +8,8 @@
     "title": "Informatii de Contact",
     "address": "Str Valea Oltului nr 73-75, etaj 2",
     "phone": "+40 744 550 445",
-    "email": "elitemindacademy2025@gmail.com"
+    "email": "elitemindacademy2025@gmail.com",
+    "image": "/images/locatie.jpg"
   },
   "contactForm": {
     "title": "Trimite-ne un mesaj",
