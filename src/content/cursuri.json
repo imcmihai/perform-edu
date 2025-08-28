@@ -134,27 +134,16 @@
     }
   ],
   "pricing": {
-    "title": "Pachete si Tarife",
+    "title": "Preturi",
     "subtitle": "Transparenta Totala",
     "plans": [
+
       {
-        "name": "Individual",
-        "price": "Contacteaza-ne",
-        "per": "",
-        "features": [
-          "Atentie 1-la-1",
-          "Program personalizat",
-          "Feedback detaliat",
-          "Ideal pentru recuperare rapida"
-        ],
-        "recommended": false
-      },
-      {
-        "name": "Grupuri Mici",
+        "name": "Grupe Mici",
         "price": "120 lei",
         "per": "/sedinta",
         "features": [
-          "7-8 elevi",
+          "8-10 elevi",
           "Invatare colaborativa",
           "Dinamica de grup",
           "Cel mai bun raport calitate-pret"
