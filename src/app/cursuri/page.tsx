@@ -1,6 +1,6 @@
 import CursuriHero from '../../components/cursuri/CursuriHero';
 import CourseList from '../../components/cursuri/CourseList';
-import Pricing from '../../components/cursuri/Pricing';
+// import Pricing from '../../components/cursuri/Pricing';
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export default function CursuriPage() {
     <main>
       <CursuriHero />
       <CourseList />
-      <Pricing />
+      {/* <Pricing /> */}
     </main>
   );
 }

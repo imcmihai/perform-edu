@@ -121,7 +121,6 @@ export default function RootLayout({
                 "telephone": "+40744550445",
                 "email": "elitemindacademy2025@gmail.com",
                 "foundingDate": "2025",
-                "priceRange": "100-150 RON",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "Strada Valea Oltului nr 73-75, etaj 2",
@@ -191,18 +190,6 @@ export default function RootLayout({
                             "addressCountry": "RO"
                           }
                         }
-                      },
-                      "offers": {
-                        "@type": "Offer",
-                        "price": "100",
-                        "priceCurrency": "RON",
-                        "category": "Education",
-                        "priceSpecification": {
-                          "@type": "PriceSpecification",
-                          "price": "100",
-                          "priceCurrency": "RON",
-                          "unitText": "per session"
-                        }
                       }
                     },
                     {
@@ -229,18 +216,6 @@ export default function RootLayout({
                             "addressRegion": "Sector 6",
                             "addressCountry": "RO"
                           }
-                        }
-                      },
-                      "offers": {
-                        "@type": "Offer",
-                        "price": "120",
-                        "priceCurrency": "RON",
-                        "category": "Education",
-                        "priceSpecification": {
-                          "@type": "PriceSpecification",
-                          "price": "120",
-                          "priceCurrency": "RON",
-                          "unitText": "per session"
                         }
                       }
                     },
@@ -270,18 +245,6 @@ export default function RootLayout({
                             "addressCountry": "RO"
                           }
                         }
-                      },
-                      "offers": {
-                        "@type": "Offer",
-                        "price": "120",
-                        "priceCurrency": "RON",
-                        "category": "Education",
-                        "priceSpecification": {
-                          "@type": "PriceSpecification",
-                          "price": "120",
-                          "priceCurrency": "RON",
-                          "unitText": "per session"
-                        }
                       }
                     },
                     {
@@ -308,18 +271,6 @@ export default function RootLayout({
                             "addressRegion": "Sector 6",
                             "addressCountry": "RO"
                           }
-                        }
-                      },
-                      "offers": {
-                        "@type": "Offer",
-                        "price": "120",
-                        "priceCurrency": "RON",
-                        "category": "Education",
-                        "priceSpecification": {
-                          "@type": "PriceSpecification",
-                          "price": "120",
-                          "priceCurrency": "RON",
-                          "unitText": "per session"
                         }
                       }
                     },
@@ -348,18 +299,6 @@ export default function RootLayout({
                             "addressCountry": "RO"
                           }
                         }
-                      },
-                      "offers": {
-                        "@type": "Offer",
-                        "price": "120",
-                        "priceCurrency": "RON",
-                        "category": "Education",
-                        "priceSpecification": {
-                          "@type": "PriceSpecification",
-                          "price": "120",
-                          "priceCurrency": "RON",
-                          "unitText": "per session"
-                        }
                       }
                     }
                   ]
@@ -383,14 +322,6 @@ export default function RootLayout({
                     "acceptedAnswer": {
                       "@type": "Answer",
                       "text": "Ne aflam in Sectorul 6, pe Strada Valea Oltului nr 73-75, etaj 2. Suntem usor accesibili cu transportul in comun."
-                    }
-                  },
-                  {
-                    "@type": "Question",
-                    "name": "Care sunt tarifele pentru meditatii?",
-                    "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Tarifele incep de la 120 lei per sedinta pentru grupuri mici de 8-12 elevi. Contactati-ne pentru o oferta personalizata."
                     }
                   },
                   {
