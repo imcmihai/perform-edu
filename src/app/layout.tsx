@@ -26,8 +26,8 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://elitemindacademy.ro'),
   title: {
-    default: "EliteMind Academy - Meditatii si Cursuri pentru Elevi",
-    template: "%s | EliteMind Academy"
+    default: "Elite Mind Academy - Meditatii si Cursuri pentru Elevi",
+    template: "%s | Elite Mind Academy"
   },
   description: "Meditatii si Cursuri dedicate elevilor din ciclul primar si gimnazial la Matematica, Romana, Engleza, Franceza, Germana, Fizica, Sah",
   robots: {
@@ -52,23 +52,23 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ro_RO',
     url: 'https://elitemindacademy.ro',
-    siteName: 'EliteMind Academy',
-    title: 'EliteMind Academy - Meditatii si Cursuri pentru Elevi in Sectorul 6',
+    siteName: 'Elite Mind Academy',
+    title: 'Elite Mind Academy - Meditatii si Cursuri pentru Elevi in Sectorul 6',
     description: 'Centru educational specializat in meditatii la matematica, romana, engleza, germana, fizica si sah pentru elevi din ciclul primar si gimnazial in Sectorul 6, Bucuresti.',
     images: [
       {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'EliteMind Academy - Centru Educational Sectorul 6',
+        alt: 'Elite Mind Academy - Centru Educational Sectorul 6',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@elitemindacademy',
-    creator: '@elitemindacademy',
-    title: 'EliteMind Academy - Meditatii si Cursuri pentru Elevi',
+    site: '@Elite Mindacademy',
+    creator: '@Elite Mindacademy',
+    title: 'Elite Mind Academy - Meditatii si Cursuri pentru Elevi',
     description: 'Centru educational specializat in meditatii la matematica, romana, engleza, germana, fizica si sah pentru elevi din Sectorul 6, Bucuresti.',
     images: ['/images/twitter-image.jpg'],
   },
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     'geo.position': '44.415889956114775;26.013340269668557',
     'ICBM': '44.415889956114775, 26.013340269668557',
     'contact': 'elitemindacademy2025@gmail.com',
-    'author': 'EliteMind Academy'
+    'author': 'Elite Mind Academy'
   }
 };
 
@@ -96,7 +96,7 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="EliteMind Academy" />
+        <meta name="apple-mobile-web-app-title" content="Elite Mind Academy" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
       </head>
@@ -113,7 +113,7 @@ export default function RootLayout({
               {
                 "@context": "https://schema.org",
                 "@type": ["EducationalOrganization", "LocalBusiness"],
-                "name": "EliteMind Academy",
+                "name": "Elite Mind Academy",
                 "alternateName": "Elite Mind Academy",
                 "legalName": "ELITE MIND ACADEMY SRL",
                 "description": "Centru educational specializat in meditatii si cursuri pentru elevi din Sectorul 6 Bucuresti. Oferim cursuri de matematica, romana, limbi straine, fizica si sah pentru ciclul primar si gimnazial.",
@@ -164,7 +164,7 @@ export default function RootLayout({
                 ],
                 "hasOfferCatalog": {
                   "@type": "OfferCatalog",
-                  "name": "Cursuri si Meditatii EliteMind Academy",
+                  "name": "Cursuri si Meditatii Elite Mind Academy",
                   "itemListElement": [
                     {
                       "@type": "Course",
@@ -172,14 +172,15 @@ export default function RootLayout({
                       "description": "Cursurile noastre de matematică sunt structurate pentru a acoperi toate nivelurile de pregătire, de la consolidarea bazelor până la pregătirea pentru examene naționale.",
                       "provider": {
                         "@type": "EducationalOrganization",
-                        "name": "EliteMind Academy"
+                        "name": "Elite Mind Academy"
                       },
-                      "courseMode": ["in-person", "blended"],
+                      "courseMode": ["onsite", "blended"],
                       "educationalLevel": ["elementary", "middle"],
                       "teaches": ["mathematics", "algebra", "geometry"],
                       "hasCourseInstance": {
                         "@type": "CourseInstance",
-                        "courseMode": "in-person",
+                        "courseMode": "onsite",
+                        "courseSchedule": "P0D",
                         "location": {
                           "@type": "Place",
                           "address": {
@@ -195,6 +196,7 @@ export default function RootLayout({
                         "@type": "Offer",
                         "price": "100",
                         "priceCurrency": "RON",
+                        "category": "Education",
                         "priceSpecification": {
                           "@type": "PriceSpecification",
                           "price": "100",
@@ -209,11 +211,38 @@ export default function RootLayout({
                       "description": "Meditațiile de română dezvoltă competențele de exprimare orală și scrisă, analiza literară și redactarea creativă.",
                       "provider": {
                         "@type": "EducationalOrganization",
-                        "name": "EliteMind Academy"
+                        "name": "Elite Mind Academy"
                       },
-                      "courseMode": ["in-person", "blended"],
+                      "courseMode": ["onsite", "blended"],
                       "educationalLevel": ["elementary", "middle"],
-                      "teaches": ["romanian literature", "grammar", "writing"]
+                      "teaches": ["romanian literature", "grammar", "writing"],
+                      "hasCourseInstance": {
+                        "@type": "CourseInstance",
+                        "courseMode": "onsite",
+                        "courseSchedule": "P0D",
+                        "location": {
+                          "@type": "Place",
+                          "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Strada Valea Oltului nr 73-75, etaj 2",
+                            "addressLocality": "București",
+                            "addressRegion": "Sector 6",
+                            "addressCountry": "RO"
+                          }
+                        }
+                      },
+                      "offers": {
+                        "@type": "Offer",
+                        "price": "120",
+                        "priceCurrency": "RON",
+                        "category": "Education",
+                        "priceSpecification": {
+                          "@type": "PriceSpecification",
+                          "price": "120",
+                          "priceCurrency": "RON",
+                          "unitText": "per session"
+                        }
+                      }
                     },
                     {
                       "@type": "Course",
@@ -221,12 +250,39 @@ export default function RootLayout({
                       "description": "Cursurile de limbi străine (engleză, germană) combină învățarea gramaticii cu dezvoltarea competențelor de comunicare practică.",
                       "provider": {
                         "@type": "EducationalOrganization",
-                        "name": "EliteMind Academy"
+                        "name": "Elite Mind Academy"
                       },
-                      "courseMode": ["in-person", "blended"],
+                      "courseMode": ["onsite", "blended"],
                       "educationalLevel": ["elementary", "middle"],
                       "teaches": ["english", "german", "foreign languages"],
-                      "availableLanguage": ["en", "de"]
+                      "availableLanguage": ["en", "de"],
+                      "hasCourseInstance": {
+                        "@type": "CourseInstance",
+                        "courseMode": "onsite",
+                        "courseSchedule": "P0D",
+                        "location": {
+                          "@type": "Place",
+                          "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Strada Valea Oltului nr 73-75, etaj 2",
+                            "addressLocality": "București",
+                            "addressRegion": "Sector 6",
+                            "addressCountry": "RO"
+                          }
+                        }
+                      },
+                      "offers": {
+                        "@type": "Offer",
+                        "price": "120",
+                        "priceCurrency": "RON",
+                        "category": "Education",
+                        "priceSpecification": {
+                          "@type": "PriceSpecification",
+                          "price": "120",
+                          "priceCurrency": "RON",
+                          "unitText": "per session"
+                        }
+                      }
                     },
                     {
                       "@type": "Course",
@@ -234,11 +290,38 @@ export default function RootLayout({
                       "description": "Cursurile de fizică transformă conceptele abstracte în experiențe concrete prin experimente și aplicații practice.",
                       "provider": {
                         "@type": "EducationalOrganization",
-                        "name": "EliteMind Academy"
+                        "name": "Elite Mind Academy"
                       },
-                      "courseMode": ["in-person"],
+                      "courseMode": ["onsite"],
                       "educationalLevel": ["middle"],
-                      "teaches": ["physics", "experiments", "science"]
+                      "teaches": ["physics", "experiments", "science"],
+                      "hasCourseInstance": {
+                        "@type": "CourseInstance",
+                        "courseMode": "onsite",
+                        "courseSchedule": "P0D",
+                        "location": {
+                          "@type": "Place",
+                          "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Strada Valea Oltului nr 73-75, etaj 2",
+                            "addressLocality": "București",
+                            "addressRegion": "Sector 6",
+                            "addressCountry": "RO"
+                          }
+                        }
+                      },
+                      "offers": {
+                        "@type": "Offer",
+                        "price": "120",
+                        "priceCurrency": "RON",
+                        "category": "Education",
+                        "priceSpecification": {
+                          "@type": "PriceSpecification",
+                          "price": "120",
+                          "priceCurrency": "RON",
+                          "unitText": "per session"
+                        }
+                      }
                     },
                     {
                       "@type": "Course",
@@ -246,11 +329,38 @@ export default function RootLayout({
                       "description": "Cursurile de șah dezvoltă gândirea strategică, concentrarea și răbdarea pentru dezvoltarea intelectuală completă.",
                       "provider": {
                         "@type": "EducationalOrganization",
-                        "name": "EliteMind Academy"
+                        "name": "Elite Mind Academy"
                       },
-                      "courseMode": ["in-person"],
+                      "courseMode": ["onsite"],
                       "educationalLevel": ["elementary", "middle"],
-                      "teaches": ["chess", "strategy", "logical thinking"]
+                      "teaches": ["chess", "strategy", "logical thinking"],
+                      "hasCourseInstance": {
+                        "@type": "CourseInstance",
+                        "courseMode": "onsite",
+                        "courseSchedule": "P0D",
+                        "location": {
+                          "@type": "Place",
+                          "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Strada Valea Oltului nr 73-75, etaj 2",
+                            "addressLocality": "București",
+                            "addressRegion": "Sector 6",
+                            "addressCountry": "RO"
+                          }
+                        }
+                      },
+                      "offers": {
+                        "@type": "Offer",
+                        "price": "120",
+                        "priceCurrency": "RON",
+                        "category": "Education",
+                        "priceSpecification": {
+                          "@type": "PriceSpecification",
+                          "price": "120",
+                          "priceCurrency": "RON",
+                          "unitText": "per session"
+                        }
+                      }
                     }
                   ]
                 }
@@ -261,7 +371,7 @@ export default function RootLayout({
                 "mainEntity": [
                   {
                     "@type": "Question",
-                    "name": "Ce tipuri de cursuri oferiti la EliteMind Academy?",
+                    "name": "Ce tipuri de cursuri oferiti la Elite Mind Academy?",
                     "acceptedAnswer": {
                       "@type": "Answer",
                       "text": "Oferim cursuri si meditatii la Matematica, Romana, Limbi Straine (Engleza, Germana), Fizica si Sah pentru elevi din ciclul primar si gimnazial."
@@ -280,7 +390,7 @@ export default function RootLayout({
                     "name": "Care sunt tarifele pentru meditatii?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Tarifele incep de la 100 lei per sedinta pentru meditatii individuale si 120 lei per sedinta pentru grupuri mici de 2-3 elevi. Contactati-ne pentru o oferta personalizata."
+                      "text": "Tarifele incep de la 120 lei per sedinta pentru grupuri mici de 8-12 elevi. Contactati-ne pentru o oferta personalizata."
                     }
                   },
                   {
@@ -288,7 +398,7 @@ export default function RootLayout({
                     "name": "Cum pot programa o sedinta de meditatii?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Puteti sa ne contactati la telefon 0744 550 445 sau prin email la elitemindacademy2025@gmail.com pentru a programa o evaluare gratuita si o sedinta de meditatii."
+                                             "text": "Puteti sa ne contactati la telefon 0744 550 445 sau prin email la elitemindacademy2025@gmail.com pentru a programa o evaluare gratuita si o sedinta de meditatii."
                     }
                   }
                 ]
